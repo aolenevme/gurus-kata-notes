@@ -6,4 +6,4 @@ will somehow find this repository.
 
 
 ### Gurus
-* [Uncle Bob's Blog](UNCLE_BOB_BLOG.md)
+* [The Uncle Bob's Blog](UNCLE_BOB_BLOG.md)
