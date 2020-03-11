@@ -10,3 +10,10 @@
 > **There is a "crevasse" between developers and managers in Agile** according to Robert Martin. Yes, please, don`t ignore both technical topics and "manager" topics during work. Otherwise it widens the "crevasse".
 > The people part is complicated. The technical part is complicated also. So congratulate your colleagues for their dedication to their discipline. Remember, these are your team-mates. 
 > You want them to be able to play their positions with skill and professionalism. You want them to be good at their jobs. And, if you want them to respect your role, you must first respect theirs.
+
+3. [Screaming Architecture](https://blog.cleancoder.com/uncle-bob/2011/09/30/Screaming-Architecture.html)
+> **A good architecture emphasizes the use-cases and decouples them from peripheral concerns.** 
+> The software architecture should scream about the use cases of the application, just as the plans for a house or a library scream about the use cases of those buildings.
+> Your system architecture should be as ignorant as possible about how it is to be delivered, what frameworks, databases, web-servers to use. 
+> View all these tools skeptically and know how to protect yourself from them. 
+> If you do so, your code will be very flexible and testable in-situ, without any of the complications and additional infrastructure adjustments.
