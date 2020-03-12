@@ -17,3 +17,7 @@
 > Your system architecture should be as ignorant as possible about how it is to be delivered, what frameworks, databases, web-servers to use. 
 > View all these variables skeptically and know how to protect yourself from them. 
 > If you do so, your code will be very flexible and testable in-situ, without any of the complications and additional infrastructure adjustments.
+
+4. [Simple Hickey](https://blog.cleancoder.com/uncle-bob/2011/10/20/Simple-Hickey.html)
+> Just watch these videos: [Simple Made Easy](https://www.youtube.com/watch?v=oytL881p-nQ) and [Hammock Driven Development](https://www.youtube.com/watch?v=f84n5oFoZBc&t=18s)
+> by Rich Hickey 🤟🏻
