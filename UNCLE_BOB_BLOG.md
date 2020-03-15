@@ -40,3 +40,8 @@
 > See: [Hammock Driven Development](https://www.youtube.com/watch?v=f84n5oFoZBc&t=18s)
 
 > **Fourth. These ideas are old.** They come from people like David Parnas, Tom Demarco, Grady Booch, Ivar Jacobson and many others.
+
+7. [The Barbarians are at the Gates](https://blog.cleancoder.com/uncle-bob/2011/12/11/The-Barbarians-are-at-the-Gates.html)
+> **There is lack of good languages for multiprocessing.** That\`s why barbarians are at the gates. Since early 2000s, clock rates don\`t growth according the [Moore’s Law](https://en.wikipedia.org/wiki/Moore%27s_law).
+> So the only way to increase computer power is to increase density of chips. But there are only few of languages that allow convenient multiprocessing programming. Probably, the best one is [Clojure](https://clojure.org/).
+> But what will happen with other mainstream languages that don\`t support multicore regime? 
