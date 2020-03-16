@@ -46,6 +46,6 @@
 > So the only way to increase computer power is to increase density of chips. But there are only few languages that allow convenient multiprocessing. Probably, the best one is [Clojure](https://clojure.org/).
 > But what will happen with other mainstream languages that don\`t support multicore regime? 
 
-8. [Flipping the Bit](hhttps://blog.cleancoder.com/uncle-bob/2012/01/11/Flipping-the-Bit.html)
+8. [Flipping the Bit](https://blog.cleancoder.com/uncle-bob/2012/01/11/Flipping-the-Bit.html)
 > **I want you to believe that Test Driven Development saves time in every case and every situation without exception amen.** 
 > Just flip that Bit in your head and experience that TDD is very beneficial. 
