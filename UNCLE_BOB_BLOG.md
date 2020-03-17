@@ -49,3 +49,8 @@
 8. [Flipping the Bit](https://blog.cleancoder.com/uncle-bob/2012/01/11/Flipping-the-Bit.html)
 > **I want you to believe that Test Driven Development saves time in every case and every situation without exception amen.** 
 > Just flip that Bit in your head and experience that TDD is very beneficial. 
+
+9. [The Letter](https://blog.cleancoder.com/uncle-bob/2012/01/12/The-Letter.html)
+> **We need to become a self-regulating and self-policing profession.** Software is everywhere, from coffee machines to surgery robots. 
+> The stakes are simply too high to allow developers to remain in the current ad-hoc limbo of hackers, heroics, and hermits.
+> Be responsible until somebody will _make_ you so.
