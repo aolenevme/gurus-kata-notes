@@ -52,5 +52,5 @@
 
 9. [The Letter](https://blog.cleancoder.com/uncle-bob/2012/01/12/The-Letter.html)
 > **We need to become a self-regulating and self-policing profession.** Software is everywhere, from coffee machines to surgery robots. 
-> The stakes are simply too high to allow developers to remain in the current ad-hoc limbo of hackers, heroics, and hermits.
+> Expectations are simply too high to allow developers to remain just hackers, heroics, and hermits.
 > Be responsible until somebody will _make_ you so.
