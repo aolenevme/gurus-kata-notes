@@ -54,3 +54,7 @@
 > **We need to become a self-regulating and self-policing profession.** Software is everywhere, from coffee machines to surgery robots. 
 > Expectations are simply too high to allow developers to remain just hackers, heroics, and hermits.
 > Be responsible until somebody will _make_ you so.
+
+10. [Fecophiles](https://blog.cleancoder.com/uncle-bob/2012/01/20/Fecophiles.html)
+> **Fecophiles. People who like to smell poop. ** Or, probably, they just live in crap and don\`t smell it. 
+> There are lots of fecophiles out there. They need to take a step back and inhale deeply through their noses.
