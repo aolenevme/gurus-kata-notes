@@ -56,5 +56,5 @@
 > Be responsible until somebody will _make_ you so.
 
 10. [Fecophiles](https://blog.cleancoder.com/uncle-bob/2012/01/20/Fecophiles.html)
-> **Fecophiles. People who like to smell poop. ** Or, probably, they just live in crap and don\`t smell it. 
+> **Fecophiles. People who like to smell poop.** Or, probably, they just live in crap and don\`t smell it. 
 > There are lots of fecophiles out there. They need to take a step back and inhale deeply through their noses.
