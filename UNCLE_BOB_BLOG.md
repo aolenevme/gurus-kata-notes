@@ -61,4 +61,4 @@
 
 11. [The Ruby Colored Box](https://blog.cleancoder.com/uncle-bob/2012/01/31/The-Ruby-Colored-Box.html)
 > **You need real programmers when you hire people.** Don\`t worry if they don\`t know your language. They will know it in a month if they are experienced enough.
-> During an interview ask him what he doesn\`t know and watch how he will act outside of the comfort zone.
+> During an interview ask them what they don\`t know and watch how they will act outside of the comfort zone.
