@@ -58,3 +58,7 @@
 10. [Fecophiles](https://blog.cleancoder.com/uncle-bob/2012/01/20/Fecophiles.html)
 > **Fecophiles. People who like to smell poop.** Or, probably, they just live in crap and don\`t smell it. 
 > There are lots of fecophiles out there. They need to take a step back and inhale deeply through their noses.
+
+11. [The Ruby Colored Box](https://blog.cleancoder.com/uncle-bob/2012/01/31/The-Ruby-Colored-Box.html)
+> **You need real programmers when you hire people.** Don\`t worry if they don\`t know your language. They will know it in a month if they are experienced enough.
+> During an interview ask him what he doesn\`t know and watch how he will act outside of the comfort zone.
