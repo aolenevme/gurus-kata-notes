@@ -62,3 +62,12 @@
 11. [The Ruby Colored Box](https://blog.cleancoder.com/uncle-bob/2012/01/31/The-Ruby-Colored-Box.html)
 > **You need real programmers when you hire people.** Don\`t worry if they don\`t know your language. They will know it in a month if they are experienced enough.
 > During an interview ask them what they don\`t know and watch how they will act outside of the comfort zone.
+
+12. [Service Oriented Agony](https://blog.cleancoder.com/uncle-bob/2012/02/01/Service-Oriented-Agony.html)
+> **There are [SRP](https://en.wikipedia.org/wiki/Single-responsibility_principle) and its big brother [CCP](https://ericbackhage.net/clean-code/the-common-closure-principle/). There is violation of them.** When people group together things that change together, they occasionally group things that change for different reasons. This leads to a set of different problems that may slow down work. There are solutions:
+  
+> **First.** Sometimes it is better to avoid redundant decoupling and live within a single monolith.
+  
+> **Second.** The system needs to be partitioned into real business services by business rules.
+  
+> **Third.** If parts aren\’t business services then interfaces have to be generic so that every new feature doesn’t require a change throughout the whole system.
