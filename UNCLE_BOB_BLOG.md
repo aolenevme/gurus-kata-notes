@@ -70,4 +70,4 @@
   
 > **Second.** The system needs to be partitioned into real business services by business rules.
   
-> **Third.** If parts aren\’t business services then interfaces have to be generic so that every new feature doesn’t require a change throughout the whole system.
+> **Third.** If parts aren\`t business services then interfaces have to be generic so that every new feature doesn’t require a change throughout the whole system.
