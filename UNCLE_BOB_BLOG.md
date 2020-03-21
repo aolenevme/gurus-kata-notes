@@ -71,3 +71,7 @@
 > **Second.** The system needs to be partitioned into real business services by business rules.
   
 > **Third.** If parts aren\`t business services then interfaces have to be generic so that every new feature doesn\`t require a change throughout the whole system.
+
+13. [After the Disaster](https://blog.cleancoder.com/uncle-bob/2012/04/18/After-The-Disaster.html)
+> **Soon _they_ will understand that IT industry is a swamp, but civilization significantly depends on it.** And then governments might start to regulate us. 
+> They could turn us all into civil servants and do anything they want. And then life will be hell.
