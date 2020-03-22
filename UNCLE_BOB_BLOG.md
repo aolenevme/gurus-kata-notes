@@ -81,3 +81,9 @@
 > Look below the surface to try to enumerate the number of procedural elements."
 
 > "And if anyone tries to tell you that your estimate is bogus because the task is so simple, ask them to write down the procedure for tying their shoes."
+
+15. [NO DB](https://blog.cleancoder.com/uncle-bob/2012/05/15/NODB.html)
+> **The center of your application are the use cases of your application.** The database or used frameworks are just details that you don’t need to figure out right away.
+
+> You determine your data model when all use cases and business rules are written and tested. By that time you will have identified all the queries, all the relationships, 
+> all the data elements, and you’ll be able to construct a data model that fits nicely into a database.
