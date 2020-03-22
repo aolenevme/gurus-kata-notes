@@ -75,3 +75,9 @@
 13. [After the Disaster](https://blog.cleancoder.com/uncle-bob/2012/04/18/After-The-Disaster.html)
 > **Soon _they_ will understand that IT industry is a swamp, but civilization significantly depends on it.** And then governments might start to regulate us. 
 > They could turn us all into civil servants and do anything they want. And then life will be hell.
+
+14. [Why is Estimating so Hard?](https://blog.cleancoder.com/uncle-bob/2012/04/20/Why-Is-Estimating-So-Hard.html)
+> **Tasks that appear easy for a human to solve are often described by complex procedures.** So when estimating, make sure you aren\`t affected by the apparent ease of that task. 
+> Look below the surface to try to enumerate the number of procedural elements.
+
+> And if anyone tries to tell you that your estimate is bogus because the task is so simple, ask them to write down the procedure for tying their shoes.
