@@ -90,4 +90,4 @@
 
 16. [The Clean Architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
 > **Read it and read again!** This is impossible to shrink it. And I won\`t summarize the article anyhow. Probably, I\`m too biased, but everybody has to read it thoroughly, 
-> think it over and make notes on your own. Amen.
+> think it over and make notes on their own. Amen.
