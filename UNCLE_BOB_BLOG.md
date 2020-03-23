@@ -91,3 +91,6 @@
 16. [The Clean Architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
 > **Read it and read again!** This is impossible to shrink it. And I won\`t summarize the article anyhow. Probably, I\`m too biased, but everybody has to read it thoroughly, 
 > think it over and make notes on their own. Amen.
+
+17. [Functional Programming for the Object Oriented Programmer](https://blog.cleancoder.com/uncle-bob/2012/08/24/functional-programming-for-the-object-oriented-programmer.html)
+> **[It\`s a good book to start with FP and Clojure at once.](https://leanpub.com/fp-oo)** What better way to explain and expose functional programming to an OO programmer than to build an object system in a functional language?
