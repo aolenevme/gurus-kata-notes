@@ -87,3 +87,7 @@
 
 > You determine your data model when all use cases and business rules are written and tested. By that time you will have identified all the queries, all the relationships, 
 > all the data elements, and you’ll be able to construct a data model that fits nicely into a database.
+
+16. [The Clean Architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
+> **Read it and read again!** This is impossible to shrink it. And I won\`t summarize the article anyhow. Probably, I\`m too biased, but everybody has to read it thoroughly, 
+> think it over and make notes on your own. Amen.
