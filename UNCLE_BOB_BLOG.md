@@ -94,3 +94,13 @@
 
 17. [Functional Programming for the Object Oriented Programmer](https://blog.cleancoder.com/uncle-bob/2012/08/24/functional-programming-for-the-object-oriented-programmer.html)
 > **[It\`s a good book to start with FP and Clojure at once.](https://leanpub.com/fp-oo)** What better way to explain and expose functional programming to an OO programmer than to build an object system in a functional language?
+
+18. [The New CTO](https://blog.cleancoder.com/uncle-bob/2012/09/06/I-am-Your-New-CTO.html)
+> **What CTOs expect from us:**
+* QA will find nothing.
+* We will cover for each other.
+* We will make Honest Estimates.
+* We will say ‘No’.
+* We will not be afraid of our code.
+* The only way to go fast is to go well.
+* We will not ship shit.
