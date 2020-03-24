@@ -109,4 +109,4 @@
 > **Programming is the same as it was during the last 60 years.** There were and are just three paradigms: Structured Programming (1968), Object Oriented Programming (1966), 
 > and Functional Programming (1957). There hasn\`t been a new paradigm; so perhaps that\`s a good indication that there aren\`t any more to find. Must we use all these paradigms, 
 > or can we pick and choose? Probably, we should choose functional programming. Because functional programs don\`t use assignment, and therefore don\`t have side effects, and therefore 
-> don\`t have concurrent update problems.
+> don\`t have concurrent update problems. You can read more here: [The Barbarians are at the Gates](https://blog.cleancoder.com/uncle-bob/2011/12/11/The-Barbarians-are-at-the-Gates.html)
