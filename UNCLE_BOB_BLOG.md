@@ -118,4 +118,4 @@
 > is the quintessential side effect.
 
 > **Hence**, if the value of a memory location, once initialized, does not change during the course of a program execution, then there’s nothing for
-> processors to compete over. You don’t need semaphores if you don’t have side effects! You can’t have concurrent update problems if you don’t update!
+> processors to compete over. You can’t have concurrent update problems if you don’t update!
