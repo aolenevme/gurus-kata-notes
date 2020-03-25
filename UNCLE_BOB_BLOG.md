@@ -121,5 +121,5 @@
 > processors to compete over. You can’t have concurrent update problems if you don’t update!
 
 21. [Brave New Year](https://blog.cleancoder.com/uncle-bob/2012/12/29/Brave-New-Year.html)
-> **The computer does not behave like a human.** It is not employing human-like thought. They do precisely what they have been programmed to do, no more - no less.
+> **Computer do not behave like a human.** They are not employing human-like thought. They do precisely what they have been programmed to do, no more - no less.
 >  If we see errors, we call them bugs.
