@@ -110,3 +110,12 @@
 > and Functional Programming (1957). There hasn\`t been a new paradigm; so perhaps that\`s a good indication that there aren\`t any more to find. Must we use all these paradigms, 
 > or can we pick and choose? Probably, we should choose functional programming. Because functional programs don\`t use assignment, and therefore don\`t have side effects, and therefore 
 > don\`t have concurrent update problems. You can read more here: [The Barbarians are at the Gates](https://blog.cleancoder.com/uncle-bob/2011/12/11/The-Barbarians-are-at-the-Gates.html)
+
+20. [FP Basics E1](https://blog.cleancoder.com/uncle-bob/2012/12/22/FPBE1-Whats-it-all-about.html)
+> **Functional programming is programming without assignment statements.** 
+
+> **Referential Transparency** means that no function can have a side effect. That means that no variable, once initialized, can ever change its value; since assignment 
+> is the quintessential side effect.
+
+> **Hence**, if the value of a memory location, once initialized, does not change during the course of a program execution, then there’s nothing for
+> processors to compete over. You don’t need semaphores if you don’t have side effects! You can’t have concurrent update problems if you don’t update!
