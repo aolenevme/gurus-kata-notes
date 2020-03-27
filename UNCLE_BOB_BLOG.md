@@ -127,3 +127,7 @@
 22. [FP Basics E2](https://blog.cleancoder.com/uncle-bob/2013/01/02/FPBE2-Whys-it-called-functional.html)
 > **Functional language is a language that** has functions as first-class citizens (functions are treated as data elements that are manipulated no differently than integers or a characters), 
 > enforces referential transparency by eliminating assignment, and maintains data history with persistent data structures.
+
+23. [FP Basics E3](https://blog.cleancoder.com/uncle-bob/2013/01/07/FPBE3-Do-the-rules-change.html)
+> **The old rules still apply.** Functional programming may be a change - an important change; but it doesn\`t change everything. Programming is still programming. 
+> Discipline is still discipline. And TDD works just as well in functional programming as in any other style of programming.
