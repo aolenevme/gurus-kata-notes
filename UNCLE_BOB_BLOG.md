@@ -134,4 +134,4 @@
 
 24. [FP Basics E4](https://blog.cleancoder.com/uncle-bob/2013/01/29/FPBE4-Lazy-Evaluation.html)
 > **Lazy sequences are really just a clever use of iterators.** When you have lazy sequences at your disposal, you can design your data structures for convenience,
-> without undo concern for time and space; 
+> without undo concern for time and space.
