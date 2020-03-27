@@ -131,3 +131,7 @@
 23. [FP Basics E3](https://blog.cleancoder.com/uncle-bob/2013/01/07/FPBE3-Do-the-rules-change.html)
 > **The old rules still apply.** Functional programming may be a change - an important change; but it doesn\`t change everything. Programming is still programming. 
 > Discipline is still discipline. And TDD works just as well in functional programming as in any other style of programming.
+
+24. [FP Basics E4](https://blog.cleancoder.com/uncle-bob/2013/01/29/FPBE4-Lazy-Evaluation.html)
+> **Lazy sequences are really just a clever use of iterators.** When you have lazy sequences at your disposal, you can design your data structures for convenience,
+> without undo concern for time and space; 
