@@ -122,7 +122,7 @@
 
 21. [Brave New Year](https://blog.cleancoder.com/uncle-bob/2012/12/29/Brave-New-Year.html)
 > **Computers do not behave like humans.** They are not employing human-like thought. They do precisely what they have been programmed to do, no more - no less.
-> If we see errors, we call them bugs.
+> If we see errors, we call them bugs. And they are fully our fault.
 
 22. [FP Basics E2](https://blog.cleancoder.com/uncle-bob/2013/01/02/FPBE2-Whys-it-called-functional.html)
 > **Functional language is a language that** has functions as first-class citizens (functions are treated as data elements that are manipulated no differently than integers or a characters), 
