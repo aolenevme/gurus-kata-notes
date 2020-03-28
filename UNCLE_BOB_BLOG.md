@@ -137,7 +137,7 @@
 > without undo concern for time and space.
 
 25. [The Laborer and the Craftsman](https://blog.cleancoder.com/uncle-bob/2013/01/30/The-Craftsman-And-The-Laborer.html)
-> **👨🏼‍🎓[The Manifesto for Software Craftsmanship](https://manifesto.softwarecraftsmanship.org/)**
+> **[The Manifesto for Software Craftsmanship](https://manifesto.softwarecraftsmanship.org/) 👨🏼‍🎓**
 
 > **The most programmers are young**; and few have had the benefit of an experienced mentor. The result is that most programmers simply don’t know where the quality bar is. 
 > They don’t know what disciplines they should adopt.
