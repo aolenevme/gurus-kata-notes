@@ -149,3 +149,38 @@
 > **What does it take to be a craftsman? It takes raising the bar.** It takes time. It takes experience. It takes mentoring. And, it takes a lot of trial and error. In our industry the best, and possibly the only, 
 > way to refine your skill is to make lots and lots of mistakes; and to learn from others who have made lots and lots of mistakes. So thank goodness for those mistakes, and thank goodness
 > for the people who made them. Without them, we’d have learned nothing. And especially thank the people who were willing to expose their mistakes to the world.
+
+27. [The Principles of Craftsmanship](https://blog.cleancoder.com/uncle-bob/2013/02/10/ThePrinciplesOfCraftsmanship.html)
+> **The principles of Software Craftsmanship according to [8th Light](https://8thlight.com/):**
+
+> **Well-Crafted Software**
+* We humbly demonstrate our expertise by delivering quality software.
+    * We do not inflate our abilities or claim expertise where we have none.
+* We continually master a variety of technologies and techniques.
+    * We do not let unfamiliarity dissuade us from using the best tools.
+* We take responsibility for the correctness of our code by testing it thoroughly.
+    * We do not tolerate preventable defects.
+
+> **Steadily Adding Value**
+* We estimate with diligence.
+    * We do not let fear or pressure make us promise what we can’t deliver.
+* We always apply our best efforts to complete our work.
+    * We do not make excuses.
+* We work at a sustainable pace.
+    * We do not burn out.
+
+> **A Community of Professionals**
+* We embrace differences of opinion and personality.
+    * We do not allow our current practice to impede improvement.
+* We prefer open source tools that we can inspect, evaluate, and improve.
+    * We avoid proprietary products that lack transparency.
+* We teach anyone with a willingness to learn.
+    * We do not hoard our knowledge or practices.
+
+> **Productive Partnerships**
+* We show respect for our customers and fellow craftsmen.
+    * We do not act unprofessionally or unethically.
+* We communicate our progress honestly and openly with our customers.
+    * We do not conceal or embellish.
+* We partner with our customers to understand their business.
+    * We do not propose solutions until we are sure we have found the right problem.
