@@ -144,3 +144,8 @@
 
 > **So there is nothing wrong with politely pointing out what you believe to be deficiencies in someone else’s code.** You don’t want to be rude or condescending when you do this; 
 > but you do want to do it. How else can we learn unless someone points out where we’ve gone wrong? So please don’t let this event stop you from valid review and critique.
+
+26. [The Humble Craftsman](https://blog.cleancoder.com/uncle-bob/2013/02/01/The-Humble-Craftsman.html)
+> **What does it take to be a craftsman? It takes raising the bar.** It takes time. It takes experience. It takes mentoring. And, it takes a lot of trial and error. In our industry the best, and possibly the only, 
+> way to refine your skill is to make lots and lots of mistakes; and to learn from others who have made lots and lots of mistakes. So thank goodness for those mistakes, and thank goodness
+> for the people who made them. Without them, we’d have learned nothing. And especially thank the people who were willing to expose their mistakes to the world.
