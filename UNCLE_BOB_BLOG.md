@@ -135,3 +135,12 @@
 24. [FP Basics E4](https://blog.cleancoder.com/uncle-bob/2013/01/29/FPBE4-Lazy-Evaluation.html)
 > **Lazy sequences are really just a clever use of iterators.** When you have lazy sequences at your disposal, you can design your data structures for convenience,
 > without undo concern for time and space.
+
+25. [The Laborer and the Craftsman](https://blog.cleancoder.com/uncle-bob/2013/01/30/The-Craftsman-And-The-Laborer.html)
+> **👨🏼‍🎓[The Manifesto for Software Craftsmanship](https://manifesto.softwarecraftsmanship.org/)**
+
+> **The most programmers are young**; and few have had the benefit of an experienced mentor. The result is that most programmers simply don’t know where the quality bar is. 
+> They don’t know what disciplines they should adopt.
+
+> **So there is nothing wrong with politely pointing out what you believe to be deficiencies in someone else’s code.** You don’t want to be rude or condescending when you do this; 
+> but you do want to do it. How else can we learn unless someone points out where we’ve gone wrong? So please don’t let this event stop you from valid review and critique.
