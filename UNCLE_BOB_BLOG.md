@@ -192,3 +192,13 @@
 > The truth is that, during the start-up phase, those disciplines are just as critical as they are at any other time.
   
 > **Remember: The only way to go fast, is to go well.**
+
+29. [The Pragmatics of TDD](https://blog.cleancoder.com/uncle-bob/2013/03/06/ThePragmaticsOfTDD.html)
+> **Don\`t write any significant production code without making every effort to use TDD**, but there are times when TDD is too costly, and a lower discipline should be used instead.
+
+> So sometimes you may not practice TDD mainly because code will be tested indirectly:
+* Don’t write tests for getters and setters.
+* Don’t write tests for member variables.
+* Don’t write tests for one line functions or trivial ones.
+* Don’t write tests for GUIs. GUIs require fiddling. (_My remark: however, you can use [snapshot testing to do TDD](https://jestjs.io/docs/ru/snapshot-testing)_).
+* Don’t write tests for frameworks, databases, web-servers, or other third-party software.
