@@ -200,5 +200,5 @@
 * Don’t write tests for getters and setters.
 * Don’t write tests for member variables.
 * Don’t write tests for one line functions or trivial ones.
-* Don’t write tests for GUIs. GUIs require fiddling. (_My remark: however, you can use [snapshot testing to do TDD](https://jestjs.io/docs/ru/snapshot-testing)_).
+* Don’t write tests for GUIs. GUIs require fiddling. (_My remark: however, you can use [snapshot testing for GUI TDD](https://jestjs.io/docs/ru/snapshot-testing)_).
 * Don’t write tests for frameworks, databases, web-servers, or other third-party software.
