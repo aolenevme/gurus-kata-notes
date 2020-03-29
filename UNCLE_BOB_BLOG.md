@@ -184,3 +184,11 @@
     * We do not conceal or embellish.
 * We partner with our customers to understand their business.
     * We do not propose solutions until we are sure we have found the right problem.
+
+28. [The Start-Up Trap](https://blog.cleancoder.com/uncle-bob/2013/03/05/TheStartUpTrap.html)
+> **The Start-Up trap is the thought that the start-up phase is different;** and that while you are in that phase success depends upon breaking the rules. This is stupid. 
+> The start-up phase is not different. The start-up phase is simply the first of many phases, and it sets the tone for all those other phases. The disciplines that lead to 
+> successful software are always valid, no matter what phase the company is in. It is laughable to think that good disciplines are less important during the start-up phase. 
+> The truth is that, during the start-up phase, those disciplines are just as critical as they are at any other time.￼
+  
+> **Remember: The only way to go fast, is to go well.**
