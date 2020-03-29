@@ -194,9 +194,9 @@
 > **Remember: The only way to go fast, is to go well.**
 
 29. [The Pragmatics of TDD](https://blog.cleancoder.com/uncle-bob/2013/03/06/ThePragmaticsOfTDD.html)
-> **Don\`t write any significant production code without making every effort to use TDD**, but there are times when TDD is too costly, and a lower discipline should be used instead.
+> **Don\`t write any significant production code without making every effort to use TDD.**
 
-> So sometimes you may not practice TDD mainly because code will be tested indirectly:
+> But sometimes you may not practice TDD strictly mainly because **code will be tested indirectly**:
 * Don’t write tests for getters and setters.
 * Don’t write tests for member variables.
 * Don’t write tests for one line functions or trivial ones.
