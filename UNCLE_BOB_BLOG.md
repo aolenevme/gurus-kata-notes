@@ -202,3 +202,6 @@
 * Don’t write tests for one line functions or trivial ones.
 * Don’t write tests for GUIs. GUIs require fiddling. (_My remark: however, you can use [snapshot testing for GUI TDD](https://jestjs.io/docs/ru/snapshot-testing)_).
 * Don’t write tests for frameworks, databases, web-servers, or other third-party software.
+
+30. [An Open and Closed Case](https://blog.cleancoder.com/uncle-bob/2013/03/08/AnOpenAndClosedCase.html)
+> **[Open-Closed principle](https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle)**: You should be able to change the environment surrounding a module without changing the module itself.
