@@ -220,3 +220,7 @@
 
 32. [Fib. The T-P Premise.](https://blog.cleancoder.com/uncle-bob/2013/05/27/FibTPP.html)
 > **Good news.** There may be different styles based on language type, but the vast majority of the low level coding decisions remain similar irrespective of those styles.
+
+33. [Test First](https://blog.cleancoder.com/uncle-bob/2013/09/23/Test-first.html)
+> **Just read this amazing article. Why? Because the tests are the most important component in the system. They are more important than the production code. And you are going to be convinced!** 
+> We already know we should write them first; but we should also clean them first, maintain them first, think of them first, and keep them first. We should give our tests the highest priority.
