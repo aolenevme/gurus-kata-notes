@@ -224,3 +224,16 @@
 33. [Test First](https://blog.cleancoder.com/uncle-bob/2013/09/23/Test-first.html)
 > **Just read this amazing article. Why? Because the tests are the most important component in the system. They are more important than the production code. And you are going to be convinced!** 
 > We already know we should write them first; but we should also clean them first, maintain them first, think of them first, and keep them first. We should give our tests the highest priority.
+
+34. [A.T. FAIL!](https://blog.cleancoder.com/uncle-bob/2013/09/26/AT-FAIL.html)
+> **What causes systems to fail:**
+> 1. The requirements are wrong;
+> 2. The requirements are badly written;
+> 3. The requirements are incomplete;
+> 4. The programmers and the specifiers understand the requirements differently.
+  
+> **There are really just two solutions to this problem:**
+> 1. Shorten the feedback loop between specification and execution using Agile;
+> 2. Formalize the specification writing [acceptance tests](https://cucumber.io/).
+
+> **NB: The First Rule of Software Engineering: Don’t depend on things that change a lot!**
