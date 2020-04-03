@@ -240,5 +240,5 @@
 
 35. [Dance you Imps!](https://blog.cleancoder.com/uncle-bob/2013/10/01/Dance-You-Imps.html)
 > **ORMs are data structure migrators. That’s all.** They move data from one place to another while making non-semantic changes to the form of that data. 
-> They _do not_ create objects out of relational tables. design your business objects without consideration for the relational schema. 
+> They _do not_ create objects out of relational tables. Design your business objects without consideration for the relational schema. 
 > Design your applications to behave first. Then figure out a way to bind those behaviors to the data brought into memory by your ORM.
