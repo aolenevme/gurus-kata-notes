@@ -232,7 +232,7 @@
 > 3. The requirements are incomplete;
 > 4. The programmers and the specifiers understand the requirements differently.
   
-> **There are really just two solutions to this problem:**
+> **There are really just two solutions to these problems:**
 > 1. Shorten the feedback loop between specification and execution using Agile;
 > 2. Formalize the specification writing [acceptance tests](https://cucumber.io/).
 
