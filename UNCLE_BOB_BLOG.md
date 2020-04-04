@@ -250,6 +250,6 @@
 37. [Healthcare.gov](https://blog.cleancoder.com/uncle-bob/2013/11/12/Healthcare-gov.html)
 > **To what principles do we adhere?**
 
-> I will create software for the good of my users according to my ability and my judgement and never do harm to anyone.
+> **I will create software for the good of my users according to my ability and my judgement and never do harm to anyone.**
 
-> Professionalism is the willingness to refuse to obey orders that do harm to others.
+> **Professionalism is the willingness to refuse to obey orders that do harm to others.**
