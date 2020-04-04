@@ -225,7 +225,24 @@
 > **Just read this amazing article. Why? Because the tests are the most important component in the system. They are more important than the production code. And you are going to be convinced!** 
 > We already know we should write them first; but we should also clean them first, maintain them first, think of them first, and keep them first. We should give our tests the highest priority.
 
-34. [A.T. FAIL!](https://blog.cleancoder.com/uncle-bob/2013/09/26/AT-FAIL.html)
+34. [The Transformation Priority Premise](https://blog.cleancoder.com/uncle-bob/2013/05/27/TheTransformationPriorityPremise.html) and [Transformation Priority and Sorting](https://blog.cleancoder.com/uncle-bob/2013/05/27/TransformationPriorityAndSorting.html)
+> **As the tests get more specific, the code gets more generic.**
+
+> Learn how to write TDD properly following _The Transformation Priority Premise_: 
+* ({}–>nil) _no code at all->code that employs nil_
+* (nil->constant)
+* (constant->constant+) _a simple constant to a more complex constant_
+* (constant->scalar) _replacing a constant with a variable or an argument_
+* (statement->statements) _adding more unconditional statements_
+* (unconditional->if) _splitting the execution path_
+* (scalar->array)
+* (array->container)
+* (statement->recursion)
+* (if->while)
+* (expression->function) _replacing an expression with a function or algorithm_
+* (variable->assignment) _replacing the value of a variable_
+
+35. [A.T. FAIL!](https://blog.cleancoder.com/uncle-bob/2013/09/26/AT-FAIL.html)
 > **What causes systems to fail:**
 > 1. The requirements are wrong;
 > 2. The requirements are badly written;
@@ -238,27 +255,27 @@
 
 > **NB: The First Rule of Software Engineering: Don’t depend on things that change a lot!**
 
-35. [Dance you Imps!](https://blog.cleancoder.com/uncle-bob/2013/10/01/Dance-You-Imps.html)
+36. [Dance you Imps!](https://blog.cleancoder.com/uncle-bob/2013/10/01/Dance-You-Imps.html)
 > **ORMs are data structure migrators. That’s all.** They move data from one place to another while making non-semantic changes to the form of that data. 
 > They _do not_ create objects out of relational tables. Design your business objects without consideration for the relational schema. 
 > Design your applications to _behave first_. Then figure out a way to bind those behaviors to the data brought into memory by your ORM.
 
-36. [The Careless Ones](https://blog.cleancoder.com/uncle-bob/2013/10/24/The-Careless-Ones.html)
+37. [The Careless Ones](https://blog.cleancoder.com/uncle-bob/2013/10/24/The-Careless-Ones.html)
 > **What kind of organization do you want to be associated with? One that cares? Or one that is careless.** And if you aren\`t in the right kind of organization, 
 > what are you going to do about it?
 
-37. [Healthcare.gov](https://blog.cleancoder.com/uncle-bob/2013/11/12/Healthcare-gov.html)
+38. [Healthcare.gov](https://blog.cleancoder.com/uncle-bob/2013/11/12/Healthcare-gov.html)
 > **To what principles do we adhere?**
 
 > **I will create software for the good of my users according to my ability and my judgement and never do harm to anyone.**
 
 > **Professionalism is the willingness to refuse to obey orders that do harm to others.**
 
-38. [Hordes Of Novices](https://blog.cleancoder.com/uncle-bob/2013/11/19/HoardsOfNovices.html)
+39. [Hordes Of Novices](https://blog.cleancoder.com/uncle-bob/2013/11/19/HoardsOfNovices.html)
 > **Instead of hordes of novices, we need a small team of professionals.** Perhaps, we should rethink that strategy and hire one bard instead of hiring a million monkeys
 > to write the script for Hamlet.
 
-39. [Novices. A Coda](https://blog.cleancoder.com/uncle-bob/2013/11/25/Novices-Coda.html)
+40. [Novices. A Coda](https://blog.cleancoder.com/uncle-bob/2013/11/25/Novices-Coda.html)
 > **Our industry is young.** So we _don\`t need_ to throw masses of newly trained novices into mission critical projects without careful supervision, monitoring, and continuing education.
 > We _don\`t need_ to expect novices to behave like professionals. We _don\`t need_ to continue in the absurd belief that a degree in computer science, or the completion of a boot camp, 
 > is sufficient to produce a professional software developer.
