@@ -234,7 +234,7 @@
   
 > **There are really just two solutions to these problems:**
 > 1. Shorten the feedback loop between specification and execution using Agile;
-> 2. Formalize the specification writing [acceptance tests](https://cucumber.io/).
+> 2. Formalize the requirements writing [acceptance tests](https://cucumber.io/).
 
 > **NB: The First Rule of Software Engineering: Don’t depend on things that change a lot!**
 
