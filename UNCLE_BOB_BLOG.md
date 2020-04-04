@@ -246,3 +246,10 @@
 36. [The Careless Ones](https://blog.cleancoder.com/uncle-bob/2013/10/24/The-Careless-Ones.html)
 > **What kind of organization do you want to be associated with? One that cares? Or one that is careless.** And if you aren\`t in the right kind of organization, 
 > what are you going to do about it?
+
+37. [Healthcare.gov](https://blog.cleancoder.com/uncle-bob/2013/11/12/Healthcare-gov.html)
+> **To what principles do we adhere?**
+
+> I will create software for the good of my users according to my ability and my judgement and never do harm to anyone.
+
+> Professionalism is the willingness to refuse to obey orders that do harm to others.
