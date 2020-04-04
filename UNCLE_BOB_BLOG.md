@@ -257,3 +257,8 @@
 38. [Hordes Of Novices](https://blog.cleancoder.com/uncle-bob/2013/11/19/HoardsOfNovices.html)
 > **Instead of hordes of novices, we need a small team of professionals.** Perhaps, we should rethink that strategy and hire one bard instead of hiring a million monkeys
 > to write the script for Hamlet.
+
+39. [Novices. A Coda](https://blog.cleancoder.com/uncle-bob/2013/11/25/Novices-Coda.html)
+> **Our industry is young.** So we _don\`t need_ to throw masses of newly trained novices into mission critical projects without careful supervision, monitoring, and continuing education.
+> We _don\`t need_ to expect novices to behave like professionals. We _don\`t need_ to continue in the absurd belief that a degree in computer science, or the completion of a boot camp, 
+> is sufficient to produce a professional software developer.
