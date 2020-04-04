@@ -253,3 +253,7 @@
 > **I will create software for the good of my users according to my ability and my judgement and never do harm to anyone.**
 
 > **Professionalism is the willingness to refuse to obey orders that do harm to others.**
+
+38. [Hordes Of Novices](https://blog.cleancoder.com/uncle-bob/2013/11/19/HoardsOfNovices.html)
+> **Instead of hordes of novices, we need a small team of professionals.** Perhaps, we should rethink that strategy and hire one bard instead of hiring a million monkeys
+> to write the script for Hamlet.
