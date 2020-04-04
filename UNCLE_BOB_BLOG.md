@@ -242,3 +242,7 @@
 > **ORMs are data structure migrators. That’s all.** They move data from one place to another while making non-semantic changes to the form of that data. 
 > They _do not_ create objects out of relational tables. Design your business objects without consideration for the relational schema. 
 > Design your applications to _behave first_. Then figure out a way to bind those behaviors to the data brought into memory by your ORM.
+
+36. [The Careless Ones](https://blog.cleancoder.com/uncle-bob/2013/10/24/The-Careless-Ones.html)
+> **What kind of organization do you want to be associated with? One that cares? Or one that is careless.** And if you aren\`t in the right kind of organization, 
+> what are you going to do about it?
