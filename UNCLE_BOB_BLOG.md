@@ -279,3 +279,26 @@
 > **Our industry is young.** So we _don\`t need_ to throw masses of newly trained novices into mission critical projects without careful supervision, monitoring, and continuing education.
 > We _don\`t need_ to expect novices to behave like professionals. We _don\`t need_ to continue in the absurd belief that a degree in computer science, or the completion of a boot camp, 
 > is sufficient to produce a professional software developer.
+
+41. [Extreme Programming, a Reflection](https://blog.cleancoder.com/uncle-bob/2013/12/10/Thankyou-Kent.html)
+> **Nobody even thinks about Extreme Programming any more, we are all just trying to do it.**
+
+> **Practices**:
+* The Planning Game. _Scrum_.
+* Small Releases. _Sprints and CI/CD_.
+* Metaphor. _DDD_.
+* Simple Design. _Keep the system as simple as possible at all times regardless of what we fear about in the future_.
+* Testing. _TDD and Acceptance TDD_.
+* Refactoring. _Always leave the code you`re editing a little better than you found it_.
+* Pair Programming. _To be a team, programmers must regularly collaborate, at the keyboard_.
+* Collective Ownership. _The code belongs to the team, not to the individual_.
+* 40 Hour week. _Steady pace_.
+* On Site Customer. _Someone from business who is responsible for requirements, must be readily and consistently available to the programming team_.
+* Coding Standards. _Teams adopt a consistent and clean coding style_.
+
+> **Stable Values**:
+* Communication;
+* Simplicity;
+* Feedback
+* Courage.
+
