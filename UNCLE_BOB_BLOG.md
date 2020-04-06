@@ -299,6 +299,6 @@
 > **Stable Values**:
 * Communication;
 * Simplicity;
-* Feedback
+* Feedback;
 * Courage.
 
