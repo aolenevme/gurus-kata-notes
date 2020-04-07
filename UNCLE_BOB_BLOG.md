@@ -317,7 +317,7 @@
 > **TDD can\`t even be begun until we know the architecture up front.** Because tests are a kind of _formal statement of requirements_. 
 > So we can use TDD only to help us design a feature that lives within the architecture. Architecture and problem domain are _discontinuous_. 
 
-> **But our up front decisions are limited to choosing a user experience, and choosing the architectural pattern that is most consistent with that user experience.** 
+> **So our up front decisions are limited to choosing a user experience, and choosing the architectural pattern that is most consistent with that user experience.** 
 > Fortunately, the number of system architectures is relatively small: request/response systems (websites), event-driven applications (games), etc.
 
 44. [Where is the Foreman?](https://blog.cleancoder.com/uncle-bob/2014/02/21/WhereIsTheForeman.html)
