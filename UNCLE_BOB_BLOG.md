@@ -302,3 +302,26 @@
 * Feedback;
 * Courage.
 
+42. [The Domain Discontinuity](https://blog.cleancoder.com/uncle-bob/2014/01/27/TheChickenOrTheRoad.html)
+> **Restrict tests to operate through a small set of public methods.** Create tests that define _behaviours_, so _they are not coupled to the code_.
+
+> **TDD can\`t even be begun until we know the architecture up front.** Because tests are a kind of _formal statement of requirements_. 
+> So we can use TDD only to help us design a feature that lives within the architecture. Architecture and problem domain are _discontinuous_. 
+
+> **But our up front decisions are limited to choosing a user experience, and choosing the architectural pattern that is most consistent with that user experience.** 
+> Fortunately, the number of system architectures is relatively small: request/response systems (websites), event-driven applications (games), etc.
+
+43. [The Domain Discontinuity](https://blog.cleancoder.com/uncle-bob/2014/01/27/TheChickenOrTheRoad.html)
+> **Restrict tests to operate through a small set of public methods.** Create tests that define _behaviours_, so _they are not coupled to the code_.
+
+> **TDD can\`t even be begun until we know the architecture up front.** Because tests are a kind of _formal statement of requirements_. 
+> So we can use TDD only to help us design a feature that lives within the architecture. Architecture and problem domain are _discontinuous_. 
+
+> **But our up front decisions are limited to choosing a user experience, and choosing the architectural pattern that is most consistent with that user experience.** 
+> Fortunately, the number of system architectures is relatively small: request/response systems (websites), event-driven applications (games), etc.
+
+44. [Where is the Foreman?](https://blog.cleancoder.com/uncle-bob/2014/02/21/WhereIsTheForeman.html)
+> **If you want to get a project done, done right, and done on time, you need a foreman.** And that foreman has to be so technically astute that he can check the work of all the workers. 
+> He has to be a guy with the commit rights. He has to make sure all the tests are written, and all the concerns are separated, and all the right dependencies are inverted. 
+> He has to have the authority to reject any work he considers sub-standard. He has to have the power to say “No” to the unreasonable demands of the customers and managers. 
+> Where is the Foreman?
