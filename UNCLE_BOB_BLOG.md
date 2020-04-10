@@ -330,3 +330,11 @@
 > **The truth about teams is that teams only function well when there is a competent leader that holds the commit rights.** In a well functioning team the foreman allows everyone to commit, 
 > and then simply, and silently, reviews the work. If someone does a great job, an attaboy is appropriate. If someone does a poor job, a private conversation, 
 > followed by remedial action, is appropriate. In the normal case, everyone on the team can commit.
+
+46. [A Spectrum of Trust](https://blog.cleancoder.com/uncle-bob/2014/02/27/TheTrustSpectrum.html)
+> The perfect agile team is composed of 6-12 experienced developers with good design sense and a deep commitment to craftsmanship. 
+> They all sit around a single table. They all start and end work at the same time. They all pair with each other 100% of the time; changing pair partners several times per day. 
+> They have an on-site customer who perfectly balances the backlog. Their velocity is consistent and flat from iteration to iteration. They all practice TDD perfectly. 
+> Their code coverage is 100%. They all refactor mercilessly. Their code is clean. They are the perfect agile team.
+>
+> **The open-source committer model (i.e. using foremen) has been shown very effective at achieving those ends.**
