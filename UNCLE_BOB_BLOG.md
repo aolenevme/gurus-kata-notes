@@ -325,3 +325,8 @@
 > He has to be a guy with the commit rights. He has to make sure all the tests are written, and all the concerns are separated, and all the right dependencies are inverted. 
 > He has to have the authority to reject any work he considers sub-standard. He has to have the power to say “No” to the unreasonable demands of the customers and managers. 
 > Where is the Foreman?
+
+45. [Oh Foreman, Where art Thou?](https://blog.cleancoder.com/uncle-bob/2014/02/23/OhForemanWhereArtThou.html)
+> **The truth about teams is that teams only function well when there is a competent leader that holds the commit rights.** In a well functioning team the foreman allows everyone to commit, 
+> and then simply, and silently, reviews the work. If someone does a great job, an attaboy is appropriate. If someone does a poor job, a private conversation, 
+> followed by remedial action, is appropriate. In the normal case, everyone on the team can commit.
