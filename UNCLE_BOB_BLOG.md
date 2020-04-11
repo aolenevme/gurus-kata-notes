@@ -360,7 +360,8 @@
 
 51. [When TDD doesn't work.](https://blog.cleancoder.com/uncle-bob/2014/04/30/When-tdd-does-not-work.html)
 > **Remember the TDD rule: As the tests get more specific, the code gets more generic.**
+
 > So there are areas where tests aren\`t appropriate:
 * The physical boundary like CSS and HTML (but you can use snapshot testing anyway); 
-* The layer just in front of that boundary that requires human interaction to fiddle with the results like config files;
+* The layer just in front of that boundary that requires human interaction to fiddle with the results. Like config files;
 * The support code for unit tests.
