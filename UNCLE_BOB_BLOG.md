@@ -365,3 +365,13 @@
 * The physical boundary like CSS and HTML (but you can use snapshot testing anyway); 
 * The layer just in front of that boundary that requires human interaction to fiddle with the results. Like config files;
 * The support code for unit tests.
+
+52. [Test Induced Design Damage?](https://blog.cleancoder.com/uncle-bob/2014/05/01/Design-Damage.html)
+> **Programmers who “faithfully” practice TDD will create code that is “warped out of shape solely to accommodate testing objectives”.**
+
+> **How do you separate concerns?** You separate behaviors that change at different times for different reasons. 
+> Things that change together you keep together. Things that change apart you keep apart.
+
+> GUIs change at a very different rate, and for very different reasons, than business rules. 
+> Database schemas change for very different reasons, and at very different rates than business rules. 
+> Keeping these concerns separate is _good design_.
