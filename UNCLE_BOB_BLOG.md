@@ -350,3 +350,10 @@
 > **Is your work leaving a legacy of value, or are you just building a monstrous hoard for someone else to clean up?**
 > Professionals make things better with time. The Legacy code left by professionals will be cleaner and cleaner the 
 > older it is because it has enjoyed the long attention of those professionals.
+
+50. [Monogamous TDD](https://blog.cleancoder.com/uncle-bob/2014/04/25/MonogamousTDD.html)
+> Why do we do TDD?
+* We spend less time debugging.
+* The tests act as accurate, precise, and unambiguous documentation at the lowest level of the system.
+* Writing tests first requires decoupling that other testing strategies do not; and we believe that such decoupling is beneficial.
+* If you have a test suite that you trust so much that you are willing to deploy the system based solely on those tests passing; and if that test suite can be executed in seconds, or minutes, then you can quickly and easily clean the code without fear.
