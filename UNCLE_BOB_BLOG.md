@@ -338,3 +338,7 @@
 > Their code coverage is 100%. They all refactor mercilessly. Their code is clean. They are the perfect agile team.
 >
 > **The open-source committer model (i.e. using foremen) has been shown very effective at achieving those ends.**
+
+47. [When Should You Think?](https://blog.cleancoder.com/uncle-bob/2014/03/11/when-to-think.html)
+> **Think before you code. Then think as you code. Then think after you code.** 
+> Again, there is a nice video [Hammock Driven Development](https://www.youtube.com/watch?v=f84n5oFoZBc&t=18s) by Rich Hickey.
