@@ -345,3 +345,8 @@
 
 48. [The True Corruption of Agile](https://blog.cleancoder.com/uncle-bob/2014/03/28/The-Corruption-of-Agile.html)
 > **Agile is a culture expressed through a set of practices.** You can’t have a culture without practices; and the practices you follow identify your culture.
+
+49. [Code Hoarders](https://blog.cleancoder.com/uncle-bob/2014/04/03/Code-Hoarders.html)
+> **Is your work leaving a legacy of value, or are you just building a monstrous hoard for someone else to clean up?**
+> Professionals make things better with time. The Legacy code left by professionals will be cleaner and cleaner the 
+> older it is because it has enjoyed the long attention of those professionals.
