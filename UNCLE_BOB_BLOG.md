@@ -342,3 +342,6 @@
 47. [When Should You Think?](https://blog.cleancoder.com/uncle-bob/2014/03/11/when-to-think.html)
 > **Think before you code. Then think as you code. Then think after you code.** 
 > Again, there is a nice video [Hammock Driven Development](https://www.youtube.com/watch?v=f84n5oFoZBc&t=18s) by Rich Hickey.
+
+48. [The True Corruption of Agile](https://blog.cleancoder.com/uncle-bob/2014/03/28/The-Corruption-of-Agile.html)
+> **Agile is a culture expressed through a set of practices.** You can’t have a culture without practices; and the practices you follow identify your culture.
