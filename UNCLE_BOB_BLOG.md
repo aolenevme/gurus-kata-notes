@@ -352,7 +352,7 @@
 > older it is because it has enjoyed the long attention of those professionals.
 
 50. [Monogamous TDD](https://blog.cleancoder.com/uncle-bob/2014/04/25/MonogamousTDD.html)
-> Why do we do TDD?
+> **Why do we do TDD?**
 * We spend less time debugging.
 * The tests act as accurate, precise, and unambiguous documentation at the lowest level of the system.
 * Writing tests first requires decoupling that other testing strategies do not; and we believe that such decoupling is beneficial.
