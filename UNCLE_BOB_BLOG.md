@@ -375,3 +375,11 @@
 > GUIs change at a very different rate, and for very different reasons, than business rules. 
 > Database schemas change for very different reasons, and at very different rates than business rules. 
 > Keeping these concerns separate is _good design_.
+
+53. [Professionalism and TDD (Reprise)](https://blog.cleancoder.com/uncle-bob/2014/05/02/ProfessionalismAndTDD.html)
+> **Patients are dying out there! Our society as a whole is becoming more and more dependent on the software we produce; and the failures grow in significance with every passing year.**
+> 
+> If TDD is as significant to software as hand-washing was to medicine and is instrumental in pulling us back from the 
+> brink of that looming catastrophe, then Kent Beck will be hailed a hero, and TDD will carry the full weight of professionalism. 
+> After that, those who refuse to practice TDD will be excused from the ranks of professional programmers. It would not surprise me if, 
+> one day, TDD had the force of law behind it.
