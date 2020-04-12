@@ -383,3 +383,15 @@
 > brink of that looming catastrophe, then Kent Beck will be hailed a hero, and TDD will carry the full weight of professionalism. 
 > After that, those who refuse to practice TDD will be excused from the ranks of professional programmers. It would not surprise me if, 
 > one day, TDD had the force of law behind it.
+
+54. [The Single Responsibility Principle](https://blog.cleancoder.com/uncle-bob/2014/05/08/SingleReponsibilityPrinciple.html)
+> **The Single Responsibility Principle (SRP) states that each software module should have one and only one reason to change.**
+> This principle is about people. It is people who request changes. And you don’t want to confuse those people, or yourself.
+  
+> When you write a software module, you want to make sure that when changes are requested, those changes can only originate from a 
+> single person, or rather, a single tightly coupled group of people representing a single narrowly defined business function.
+
+> This is the reason we do not put SQL in JSPs. This is the reason we do not generate HTML in the modules that compute results. 
+> This is the reason that business rules should not know the database schema. This is the reason we separate concerns.
+
+> **Gather together the things that change for the same reasons. Separate those things that change for different reasons.**
