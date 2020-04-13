@@ -398,7 +398,7 @@
 
 55. [When to Mock](https://blog.cleancoder.com/uncle-bob/2014/05/10/WhenToMock.html)
 > **Mock across architecturally significant boundaries, but not within those boundaries.**
-> It forces you to think through what your significant architectural boundaries are and manage the dependencies across those boundaries 
+> It forces you to think through what your significant architectural boundaries are and to manage the dependencies across those boundaries 
 > so that you can independently deploy (and develop) the components on either side of the boundary. 
 
 > **Write your own mocks.**
