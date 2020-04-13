@@ -404,4 +404,9 @@
 > **Write your own mocks.**
 > Writing your own mocks means you have to design your mocking structure. Plus, mocking across architectural boundaries is easy. And writing those mocks is trivial. 
 
+56. [Framework Bound](https://blog.cleancoder.com/uncle-bob/2014/05/11/FrameworkBound.html)
+> **Frameworks are written by people to solve certain problems that they have. Those problems may be similar to yours, but they are not yours.** You have different problems. 
+> To the extent that your problems overlap, the framework can be enormously helpful. To the extent that your problems conflict, the framework can be a huge impediment.
 
+> **Don’t let those frameworks get too close.** They can touch peripheral subsystems; but keep them away from the core business logic. 
+> The high level policies of systems shall never be touched by frameworks.
