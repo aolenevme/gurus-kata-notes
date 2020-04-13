@@ -395,3 +395,13 @@
 > This is the reason that business rules should not know the database schema. This is the reason we separate concerns.
 
 > **Gather together the things that change for the same reasons. Separate those things that change for different reasons.**
+
+55. [When to Mock](https://blog.cleancoder.com/uncle-bob/2014/05/10/WhenToMock.html)
+> **Mock across architecturally significant boundaries, but not within those boundaries.**
+> It forces you to think through what your significant architectural boundaries are and manage the dependencies across those boundaries 
+> so that you can independently deploy (and develop) the components on either side of the boundary. 
+
+> **Write your own mocks.**
+> Writing your own mocks means you have to design your mocking structure. Plus, mocking across architectural boundaries is easy. And writing those mocks is trivial. 
+
+
