@@ -419,3 +419,6 @@
 > inside the plugin, point at the system; and that nothing in the system points out towards the plugins. The system doesn\`t know about the plugins. The plugins know about the system. 
 
 > **When your fundamental business rules are the core of a plugin architecture, then you are never bound to a particular feature set, interface, database, framework, or anything else.**
+
+58. [The Little Mocker](https://blog.cleancoder.com/uncle-bob/2014/05/14/TheLittleMocker.html)
+> **Mostly use dummies, stubs, and spies. Write your own.** Don’t often use mocking tools. Otherwise you code may become extremely complicated.
