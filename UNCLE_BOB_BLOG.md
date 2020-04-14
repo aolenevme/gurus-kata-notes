@@ -408,5 +408,14 @@
 > **Frameworks are written by people to solve certain problems that they have. Those problems may be similar to yours, but they are not yours.** You have different problems. 
 > To the extent that your problems overlap, the framework can be enormously helpful. To the extent that your problems conflict, the framework can be a huge impediment.
 
-> **Don’t let those frameworks get too close.** They can touch peripheral subsystems; but keep them away from the core business logic. 
+> **Don\`t let those frameworks get too close.** They can touch peripheral subsystems; but keep them away from the core business logic. 
 > The high level policies of systems shall never be touched by frameworks.
+
+57. [The Open Closed Principle](https://blog.cleancoder.com/uncle-bob/2014/05/12/TheOpenClosedPrinciple.html)
+> **You should be able to extend the behavior of a system without having to modify that system.** In other words, adding a new feature would involve leaving the old code in place
+> and only deploying the new code like isolated features!
+
+> Plugin systems are the apotheosis of the Open-Closed Principle. After all, the way you get a plugin architecture is to make sure that all dependencies 
+> inside the plugin, point at the system; and that nothing in the system points out towards the plugins. The system doesn\`t know about the plugins. The plugins know about the system. 
+
+> **When your fundamental business rules are the core of a plugin architecture, then you are never bound to a particular feature set, interface, database, framework, or anything else.**
