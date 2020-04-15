@@ -434,3 +434,9 @@
 
 > **Confidence.** A well designed test suite with a high degree of coverage eliminates, or at least strongly mitigates the fear of change. 
 > And when you aren’t afraid to change your code, you will clean it. And if you clean it, it won’t rot. And if it doesn’t rot, then the software team can go fast.
+
+60. [Is TDD Dead? Final Thoughts about Teams.](https://blog.cleancoder.com/uncle-bob/2014/06/17/IsTddDeadFinalThoughts.html)
+> **High-functioning teams must have a shared set of values.** Teams that don’t enjoy a shared set of values are unstable. 
+> If each member of the team does what is right in their own eyes, without considering the values of the team; 
+> then they don’t actually comprise a team. Instead they will behave chaotically, and work at cross purposes to each other.
+
