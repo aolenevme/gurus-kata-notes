@@ -422,3 +422,15 @@
 
 58. [The Little Mocker](https://blog.cleancoder.com/uncle-bob/2014/05/14/TheLittleMocker.html)
 > **Mostly use dummies, stubs, and spies. Write your own.** Don’t often use mocking tools. Otherwise you code may become extremely complicated.
+
+59. [First](https://blog.cleancoder.com/uncle-bob/2014/05/19/First.html)
+> **You’re not done until you also have tests for a piece of functionality.**
+
+> **Documentation.** Well designed tests are small isolated snippets of code that call into the system being tested, expecting certain results. 
+> A programmer can read the tests to understand what the tested code is supposed to do. So the tests are documents. 
+> And they cannot get out of sync with the application.
+
+> **Decoupling.** Well designed tests force a certain degree of decoupling. Often that decoupling is beneficial to the design of the system.
+
+> **Confidence.** A well designed test suite with a high degree of coverage eliminates, or at least strongly mitigates the fear of change. 
+> And when you aren’t afraid to change your code, you will clean it. And if you clean it, it won’t rot. And if it doesn’t rot, then the software team can go fast.
