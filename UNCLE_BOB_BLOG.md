@@ -446,3 +446,8 @@
 > Code doesn’t have to pour out of all their orifices because they can solve problems calmly, quickly, 
 > and easily with much less code.
 
+62. [A Little About Patterns](https://blog.cleancoder.com/uncle-bob/2014/06/30/ALittleAboutPatterns.html)
+> **Design Patterns: Elements of Reusable Object-Oriented Software, by Eric Gamma, Richard Helm, Ralph Johnson, and John Vlissides.**
+
+> The ideas aren’t glitter. The frameworks are. Most of the ideas in those frameworks are old. They’ve been around for decades. The ideas are … Design Patterns.
+
