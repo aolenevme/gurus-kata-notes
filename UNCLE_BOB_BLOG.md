@@ -440,3 +440,9 @@
 > If each member of the team does what is right in their own eyes, without considering the values of the team; 
 > then they don’t actually comprise a team. Instead they will behave chaotically, and work at cross purposes to each other.
 
+61. [My Lawn](https://blog.cleancoder.com/uncle-bob/2014/06/20/MyLawn.html)
+> **The older the programmer, the more questions the programmer can answer – and can take the time to answer.** 
+> The implication is that older programmers are less rushed because they have more knowledge and skill. 
+> Code doesn’t have to pour out of all their orifices because they can solve problems calmly, quickly, 
+> and easily with much less code.
+
