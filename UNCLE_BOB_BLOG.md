@@ -455,3 +455,6 @@
 > **Programmers who care about their systems, care about the tests for those systems.** Programmers who care about the tests, 
 > make sure those tests run fast. Slow running tests represent a design flaw that reflects on the experience and professionalism 
 > of the team. A slow running test suite is either a freshman error, or just plain carelessness.
+
+64. [The More Things Change...](https://blog.cleancoder.com/uncle-bob/2014/09/18/TheMoreThingsChange.html)
+> **The more things change, the more they stay the same.**
