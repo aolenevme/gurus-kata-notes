@@ -451,3 +451,7 @@
 
 > The ideas aren’t glitter. The frameworks are. Most of the ideas in those frameworks are old. They’ve been around for decades. The ideas are … Design Patterns.
 
+63. [Test Time](https://blog.cleancoder.com/uncle-bob/2014/09/03/TestTime.html)
+> **Programmers who care about their systems, care about the tests for those systems.** Programmers who care about the tests, 
+> make sure those tests run fast. Slow running tests represent a design flaw that reflects on the experience and professionalism 
+> of the team. A slow running test suite is either a freshman error, or just plain carelessness.
