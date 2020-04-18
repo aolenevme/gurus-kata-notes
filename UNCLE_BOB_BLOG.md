@@ -465,7 +465,7 @@
 > If that’s not sufficient, then consider introducing service boundaries at strategic points.
 
 66. [Clean Micro-service Architecture](https://blog.cleancoder.com/uncle-bob/2014/10/01/CleanMicroserviceArchitecture.html)
-> Micro-services are a deployment option, not an architecture. Like all options, a good architect keeps them open for as long as possible. 
+> **Micro-services are a deployment option, not an architecture.** Like all options, a good architect keeps them open for as long as possible. 
 > A good architect defers the decision about how the system will be deployed until the last responsible moment.  
 
 > But if you can only deploy your system with micro-services, then you have coupled your architecture to that particular deployment model. 
