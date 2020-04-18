@@ -463,3 +463,10 @@
 > **Don’t leap into microservices just because it sounds cool.** One thing you lose is time. It takes time to communicate through a socket. 
 > It takes time to decode REST messages. Try instead to segregate the system into jars using a plugin architecture first. 
 > If that’s not sufficient, then consider introducing service boundaries at strategic points.
+
+66. [Clean Micro-service Architecture](https://blog.cleancoder.com/uncle-bob/2014/10/01/CleanMicroserviceArchitecture.html)
+> Micro-services are a deployment option, not an architecture. Like all options, a good architect keeps them open for as long as possible. 
+> A good architect defers the decision about how the system will be deployed until the last responsible moment.  
+
+> But if you can only deploy your system with micro-services, then you have coupled your architecture to that particular deployment model. 
+> Indeed a system with a good Clean Architecture does not know which deployment option it is using.
