@@ -458,3 +458,8 @@
 
 64. [The More Things Change...](https://blog.cleancoder.com/uncle-bob/2014/09/18/TheMoreThingsChange.html)
 > **The more things change, the more they stay the same.**
+
+65. [Microservices and Jars](https://blog.cleancoder.com/uncle-bob/2014/09/19/MicroServicesAndJars.html)
+> **Don’t leap into microservices just because it sounds cool.** One thing you lose is time. It takes time to communicate through a socket. 
+> It takes time to decode REST messages. Try instead to segregate the system into jars using a plugin architecture first. 
+> If that’s not sufficient, then consider introducing service boundaries at strategic points.
