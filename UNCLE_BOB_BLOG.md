@@ -490,3 +490,17 @@ As a programmer, in humility and with the need for guidance, I shall participate
 When needed, my skill and knowledge shall be given without reservation for the public good.
 In the performance of duty and in fidelity to my profession, I shall give the utmost.
 ~~~
+
+68. [Thorns around the Gold](https://blog.cleancoder.com/uncle-bob/2014/11/19/GoingForTheGold.html)
+> **Write as many tests as you can that ignore the core functionality and deal instead with exceptional, degenerate, and ancillary behaviors.** 
+> In that order, one by one:
+
+> **Exceptional Behaviors.**
+> These are behaviors that detect invalid inputs that the core functionality should never see. 
+> These behaviors return error codes, log error messages, and/or throw exceptions.
+
+> **Degenerate Behaviors.** These are inputs that cause the core functionality to do “nothing”.
+
+> **Ancillary Behaviors.** The thing about ancillary behaviors is that they frequently turn out 
+> to be useful to the core functionality in some in-obvious way. For example, it turns out that 
+> the size of a stack is the array index used for push and pop operations in fixed-length stacks.
