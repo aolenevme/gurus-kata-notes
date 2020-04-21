@@ -470,3 +470,23 @@
 
 > But if you can only deploy your system with micro-services, then you have coupled your architecture to that particular deployment model. 
 > Indeed a system with a good Clean Architecture does not know which deployment option it is using.
+
+67. [The Obligation of the Programmer.](https://blog.cleancoder.com/uncle-bob/2014/11/15/WeRuleTheWorld.html)
+> **Order of the Programmer**
+~~~
+I am a computer programmer, I take deep pride in my profession. To it I owe solemn obligations.
+
+All human progress has been spurred by the genius of those who manipulate information.
+
+By making it possible to manipulate vastly more information than ever before, programmers have created enormous benefits 
+for human society and greatly accelerated human progress. Were it not for the accumulated knowledge and experience of 
+those programmers, mathematicians, and engineers who came before me, my efforts would be feeble.
+
+As a programmer, I pledge to practice integrity and fair dealing, tolerance, and respect, and to uphold devotion to the 
+standards and the dignity of my profession, conscious always that my skill carries with it the obligation to serve 
+humanity by making the best use of the precious resources under our stewardship.
+
+As a programmer, in humility and with the need for guidance, I shall participate in none but honest enterprises.
+When needed, my skill and knowledge shall be given without reservation for the public good.
+In the performance of duty and in fidelity to my profession, I shall give the utmost.
+~~~
