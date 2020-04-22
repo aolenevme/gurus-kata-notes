@@ -556,3 +556,6 @@ activities should be constrained to.
 > become fragile and error-prone. They create so many unisolated external dependencies that they might as well be 
 > using paper tape. Why would anybody do anything that increased their loop time? Why wouldn’t everyone defend their
 > loop time with their lives?
+
+72. [Does Organization Matter?](https://blog.cleancoder.com/uncle-bob/2015/04/15/DoesOrganizationMatter.html)
+> **Relatively simple things can tolerate a certain level of disorganization. However, as complexity increases, disorganization becomes suicidal.** 
