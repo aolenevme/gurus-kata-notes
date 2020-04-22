@@ -504,3 +504,19 @@ In the performance of duty and in fidelity to my profession, I shall give the ut
 > **Ancillary Behaviors.** The thing about ancillary behaviors is that they frequently turn out 
 > to be useful to the core functionality in some in-obvious way. For example, it turns out that 
 > the size of a stack is the array index used for push and pop operations in fixed-length stacks.
+
+69. [OO vs FP](https://blog.cleancoder.com/uncle-bob/2014/11/24/FPvsOO.html)
+> **OO is not about state.** Objects are bags of functions, not bags of data.
+
+> **Functional Programs, like OO Programs, are composed of functions that operate on data.** 
+> There is not much difference between f(o), o.f(), and (f o).
+
+> _But..._
+
+> **FP imposes discipline upon assignment.** You cannot change the state of a variable.
+
+> **OO imposes discipline on function pointers.** What OO really comes down to is that 
+> OO languages replace function pointers with convenient polymorphism.
+
+> **Do both.** OO programming is good, when you know what it is. Functional programming 
+> is good when you know what it is. And functional OO programming is also good once you know what it is.
