@@ -520,3 +520,32 @@ In the performance of duty and in fidelity to my profession, I shall give the ut
 
 > **Do both.** OO programming is good, when you know what it is. Functional programming 
 > is good when you know what it is. And functional OO programming is also good once you know what it is.
+
+70. [The Cycles of TDD](https://blog.cleancoder.com/uncle-bob/2014/12/17/TheCyclesOfTDD.html)
+> **Second-by-Second nano-cycle. The Three Laws of TDD.**
+~~~
+1. You must write a failing test before you write any production code.
+2. You must not write more of a test than is sufficient to fail, or fail to compile.
+3. You must not write more production code than is sufficient to make the currently failing test pass.
+~~~
+
+> **Minute-by-Minute micro-cycle. Red-Green-Refactor.**
+~~~
+1. Create a unit tests that fails
+2. Write production code that makes that test pass.
+3. Clean up the mess you just made.
+~~~
+
+> **Decaminute-by-Decaminute milli-cycle. Specific/Generic.**
+~~~
+As the tests get more specific, the code gets more generic.
+This is the cycle in which we apply the Transformation Priority Premise. 
+We look for the symptoms of over-specificity by checking the kinds of production code we have written.
+~~~
+
+> **Hour-by-Hour. Primary Cycle. Boundaries.**
+~~~
+Every hour or so we stop and look at the overall system. We hunt for boundaries that we want to control. 
+We make decisions about where to draw those boundaries, and which side of those boundaries our current 
+activities should be constrained to. 
+~~~
