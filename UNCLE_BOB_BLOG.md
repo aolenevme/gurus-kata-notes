@@ -549,3 +549,10 @@ Every hour or so we stop and look at the overall system. We hunt for boundaries 
 We make decisions about where to draw those boundaries, and which side of those boundaries our current 
 activities should be constrained to. 
 ~~~
+
+71. [The MODE-B Imperative](https://blog.cleancoder.com/uncle-bob/2015/02/21/ModeBImperative.html)
+> **Why do so many programmers still work in a way that they pile mess upon mess, and framework upon a framework, 
+> until their loop time grows from seconds to minutes and longer?** They inject so many dependencies that the builds 
+> become fragile and error-prone. They create so many unisolated external dependencies that they might as well be 
+> using paper tape. Why would anybody do anything that increased their loop time? Why wouldn’t everyone defend their
+> loop time with their lives?
