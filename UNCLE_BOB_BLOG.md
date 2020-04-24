@@ -586,3 +586,7 @@ activities should be constrained to.
 > Before you commit to a framework, make sure you could write it. Do this by actually
 > writing something simple that does the basics that you need. Make sure the magic all goes away. 
 > And then look at the framework again. Is it worth it? Can you live without it?
+
+78. [A Little Structure](https://blog.cleancoder.com/uncle-bob/2015/09/23/ALittleStructure.html)
+> **Structured Programming imposes discipline upon direct transfer of control.** The discipline says
+> that it is easier to reason about the code using only Sequences, Selections and Iterations.
