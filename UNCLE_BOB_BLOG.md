@@ -566,3 +566,7 @@ activities should be constrained to.
 
 74. [The First Micro-service Architecture](https://blog.cleancoder.com/uncle-bob/2015/05/28/TheFirstMicroserviceArchitecture.html)
 > **There’s nothing new under the Sun.** The microservice architecture was used back in 1960.
+
+75. [The Little Singleton](https://blog.cleancoder.com/uncle-bob/2015/07/01/TheLittleSingleton.html)
+> In a public API if you want to ensure that only one instance is being created, then use a Singleton. 
+> If it’s not in a public API, just create one instance.
