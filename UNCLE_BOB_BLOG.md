@@ -563,3 +563,6 @@ activities should be constrained to.
 73. [Language Layers](https://blog.cleancoder.com/uncle-bob/2015/04/27/LanguageLayers.html)
 > **Maybe we need to stop writing new languages** and just settle down and pick one or two that work really well. 
 > That would make life a lot simpler for us wouldn’t it?
+
+74. [The First Micro-service Architecture](https://blog.cleancoder.com/uncle-bob/2015/05/28/TheFirstMicroserviceArchitecture.html)
+> **There’s nothing new under the Sun.** The microservice architecture was used back in 1960.
