@@ -568,11 +568,21 @@ activities should be constrained to.
 > **There’s nothing new under the Sun.** The microservice architecture was used back in 1960.
 
 75. [The Little Singleton](https://blog.cleancoder.com/uncle-bob/2015/07/01/TheLittleSingleton.html)
-> In a public API if you want to ensure that only one instance is being created, then use a Singleton. 
-> If it’s not in a public API, just create one instance.
+> **In a public API if you want to ensure that only one instance is being created, then use a Singleton. 
+> If it’s not in a public API, just create one instance.**
 
 76. [Pattern Pushers](https://blog.cleancoder.com/uncle-bob/2015/07/05/PatternPushers.html)
 > **It’s a good idea to learn patterns. It is not a good idea to hunt for places to use patterns.** 
 > Instead, if you know the patterns well, then you will find places in your systems where they fit naturally. Then, 
 > if you use the pattern names and canonical forms, you provide a kind of automatic documentation to others on your 
 > team who know those patterns.
+
+77. [Make the Magic go away](https://blog.cleancoder.com/uncle-bob/2015/08/06/LetTheMagicDie.html)
+> **My language sucks! Every framework you’ve ever seen is really just an echo of this statement.** 
+
+> **Those who do not remember the past are condemned to repeat it.** - _Jorge Agustin Nicolas Ruiz de Santayana y Borras_
+
+> **There is nothing much new in software for the last thirty years.**
+> Before you commit to a framework, make sure you could write it. Do this by actually
+> writing something simple that does the basics that you need. Make sure the magic all goes away. 
+> And then look at the framework again. Is it worth it? Can you live without it?
