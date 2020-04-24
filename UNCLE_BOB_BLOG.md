@@ -570,3 +570,9 @@ activities should be constrained to.
 75. [The Little Singleton](https://blog.cleancoder.com/uncle-bob/2015/07/01/TheLittleSingleton.html)
 > In a public API if you want to ensure that only one instance is being created, then use a Singleton. 
 > If it’s not in a public API, just create one instance.
+
+76. [Pattern Pushers](https://blog.cleancoder.com/uncle-bob/2015/07/05/PatternPushers.html)
+> **It’s a good idea to learn patterns. It is not a good idea to hunt for places to use patterns.** 
+> Instead, if you know the patterns well, then you will find places in your systems where they fit naturally. Then, 
+> if you use the pattern names and canonical forms, you provide a kind of automatic documentation to others on your 
+> team who know those patterns.
