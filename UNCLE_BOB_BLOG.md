@@ -602,7 +602,7 @@ activities should be constrained to.
 
 80. [Agile is not now, nor was it ever, Waterfall.](https://blog.cleancoder.com/uncle-bob/2015/10/16/Agile-And-Waterfall.html)
 > **Does every software team need the entire suite of agile practices? Of course not.** 
-> But we can choose some of them:
+> So we can choose some of them:
 * The Planning Game.
 * Acceptance Tests.
 * Small Releases.
