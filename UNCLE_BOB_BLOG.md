@@ -559,3 +559,7 @@ activities should be constrained to.
 
 72. [Does Organization Matter?](https://blog.cleancoder.com/uncle-bob/2015/04/15/DoesOrganizationMatter.html)
 > **Relatively simple things can tolerate a certain level of disorganization. However, as complexity increases, disorganization becomes suicidal.** 
+
+73. [Language Layers](https://blog.cleancoder.com/uncle-bob/2015/04/27/LanguageLayers.html)
+> **Maybe we need to stop writing new languages** and just settle down and pick one or two that work really well. 
+> That would make life a lot simpler for us wouldn’t it?
