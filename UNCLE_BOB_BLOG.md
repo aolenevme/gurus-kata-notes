@@ -599,3 +599,19 @@ activities should be constrained to.
 > other member.
 
 > **There’s nothing wrong with specialization. There is a lot wrong with insulation.**
+
+80. []()
+> **Does every software team need the entire suite of agile practices? Of course not.** 
+> But we can choose some of them:
+* The Planning Game.
+* Acceptance Tests.
+* Small Releases.
+* Whole Team.
+* Collective Ownership.
+* Coding Standard.
+* Sustainable Pace.
+* CI/CD.
+* Pair Programming.
+* Simple Design.
+* Refactoring.
+* TDD. 
