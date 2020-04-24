@@ -590,3 +590,12 @@ activities should be constrained to.
 78. [A Little Structure](https://blog.cleancoder.com/uncle-bob/2015/09/23/ALittleStructure.html)
 > **Structured Programming imposes discipline upon direct transfer of control.** The discipline says
 > that it is easier to reason about the code using only Sequences, Selections and Iterations.
+
+79. [WATS Line 54](https://blog.cleancoder.com/uncle-bob/2015/10/05/WattsLine54.html)
+> **It seems to me that a software craftsman is a Responsible Engineer.** A Software Craftsman should 
+> never be insulated from the real world of the customer, of devops, of QA, or of anything else. 
+> The responsibilities of a team of software craftsmen should include QA; should include devops; 
+> should include customer service. And every member of that team should be able to cover for every 
+> other member.
+
+> **There’s nothing wrong with specialization. There is a lot wrong with insulation.**
