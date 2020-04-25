@@ -615,3 +615,10 @@ activities should be constrained to.
 * Simple Design.
 * Refactoring.
 * TDD. 
+
+81. [Future Proof](https://blog.cleancoder.com/uncle-bob/2015/10/30/FutureProof.html)
+> External Data. **Anything that changes frequently should be outside the code.**
+
+> Decoupling Modules. **Any module that changes frequently should be decoupled from the rest of the system.**
+
+> Tests. **Write mocks on your own. Hand written mocks don’t pollute your setups.**
