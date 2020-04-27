@@ -643,3 +643,13 @@ activities should be constrained to.
 > We are tools for others to command and use. We have no profession. If we do not form a  profession on our own, then 
 > society will force it upon us – and define it for us. And that will be good neither for society, nor for us. We must 
 > get there first.
+
+84. [Stabilization Phases](https://blog.cleancoder.com/uncle-bob/2016/01/14/Stabilization.html)
+> **We run them because we are afraid. We are afraid because we are uncertain what the system will do.** 
+> The longer a team wants a stabilization phase to run, the less certain that team is about the system.
+
+> **Checklist before the release:**
+* Are you running coverage tools including linters and unit tests?
+* Do you have automated acceptance tests written by (or at least validated by) the business and QA? 
+* Do you have automated integration tests written by architects and development leads. Do those tests stress the communications pathways between the components? Do they check for corner cases, boundary issues, and timeouts? Do they probe system behavior under varying loads?
+* If you have multiple threads, do you have a strategy for stressing those threads during your unit tests and acceptance tests? For example, have you implemented tools that introduce random delays and random loads so that the chances of race conditions are magnified. Better yet, are you gradually eliminating the possibility of race conditions by eliminating mutable state between threads? Have you drawn all the message sequence charts and examined them for potential races?
