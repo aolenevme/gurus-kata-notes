@@ -634,3 +634,12 @@ activities should be constrained to.
 * I will continuously ensure that others can cover for me, and that I can cover for them.
 * I will produce estimates that are honest both in magnitude and precision. I will not make promises without certainty.
 * I will never stop learning and improving my craft.
+
+83. [Prelude to a Profession](https://blog.cleancoder.com/uncle-bob/2015/11/27/OathDiscussion.html)
+> **We rule the world. We write the rules that make the whole world work.** Without software, quite frankly, and
+> quite literally, we all die. With that great power ought to come great responsibility. And, indeed, society will 
+> hold us responsible when our actions result in disaster. And yet nothing binds us together as a profession. 
+> We share no ethics. We share no discipline. We share no standards. We are viewed, by our employers, as laborers. 
+> We are tools for others to command and use. We have no profession. If we do not form a  profession on our own, then 
+> society will force it upon us – and define it for us. And that will be good neither for society, nor for us. We must 
+> get there first.
