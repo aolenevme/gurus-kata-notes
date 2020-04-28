@@ -653,3 +653,15 @@ activities should be constrained to.
 * Do you have automated acceptance tests written by (or at least validated by) the business and QA? 
 * Do you have automated integration tests written by architects and development leads. Do those tests stress the communications pathways between the components? Do they check for corner cases, boundary issues, and timeouts? Do they probe system behavior under varying loads?
 * If you have multiple threads, do you have a strategy for stressing those threads during your unit tests and acceptance tests? For example, have you implemented tools that introduce random delays and random loads so that the chances of race conditions are magnified. Better yet, are you gradually eliminating the possibility of race conditions by eliminating mutable state between threads? Have you drawn all the message sequence charts and examined them for potential races?
+
+85. [Giving Up on TDD](https://blog.cleancoder.com/uncle-bob/2016/03/19/GivingUpOnTDD.html)
+> **If many of your tests break every time you change the production code then you have over-coupled the tests to the code.**
+> You have a test design problem. No matter what you are writing; whether a unit test, or an acceptance test, or 
+> production code, or a mock, or a stub, you have to DESIGN.
+
+> **Something that is hard to test is badly designed.** Indeed just about anything that interacts with an IO device is hard 
+> to test. So we have developed strategies for dealing with that. Strategies like _The Humble Object pattern_.
+
+> **There will always be risk. Don’t blame TDD, and don’t give up.** The way to address that is to work hard at anticipating
+> as much as possible. That’s one of the reasons we have other people, like business analysts and Quality Assurance 
+> testers, write acceptance tests.
