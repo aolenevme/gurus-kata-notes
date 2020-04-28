@@ -665,3 +665,8 @@ activities should be constrained to.
 > **There will always be risk. Don’t blame TDD, and don’t give up.** The way to address that is to work hard at anticipating
 > as much as possible. That’s one of the reasons we have other people, like business analysts and Quality Assurance 
 > testers, write acceptance tests.
+
+[Type Wars](https://blog.cleancoder.com/uncle-bob/2016/05/01/TypeWars.html)
+> **You don’t need static type checking if you have 100% unit test coverage. Programmers begin to realize that they could 
+> become much more productive by switching to a dynamically typed language.** Unit test coverage close to 100% can, 
+> and is, being achieved. What’s more, the benefits of that achievement are enormous.
