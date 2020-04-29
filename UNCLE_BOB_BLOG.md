@@ -670,3 +670,10 @@ activities should be constrained to.
 > **You don’t need static type checking if you have 100% unit test coverage. Programmers begin to realize that they could 
 > become much more productive by switching to a dynamically typed language.** Unit test coverage close to 100% can, 
 > and is, being achieved. What’s more, the benefits of that achievement are enormous.
+
+87. [Blue. No! Yellow!](https://blog.cleancoder.com/uncle-bob/2016/05/21/BlueNoYellow.html)
+> **No future language will give us the factor of 10 advantage that assembler gave us over binary.** 
+> No future language will give us 50%, or 20%, or even 10% reduction in workload over current languages. 
+> The short-cycle discipline has reduced the differences to virtual immeasurability. So long as you work in short 
+> cycles, it hardly matters what modern language you use. It’s a quest for the Holy Grail why are 
+> there always new languages being invented.
