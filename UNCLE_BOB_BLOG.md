@@ -677,3 +677,21 @@ activities should be constrained to.
 > The short-cycle discipline has reduced the differences to virtual immeasurability. So long as you work in short 
 > cycles, it hardly matters what modern language you use. It’s a quest for the Holy Grail why are 
 > there always new languages being invented.
+
+88. [Mutation Testing](https://blog.cleancoder.com/uncle-bob/2016/06/10/MutationTesting.html)
+> **"Testing shows the presence, not the absence of bugs." Edsger W. Dijkstra said it long, long ago. Experiments can 
+> only disprove, never prove, a theory.**
+
+> **Sufficiency. There are two kinds of missing tests.** The first is some statements in the code that are not tested 
+> by the tests. The second is some requirements that the developers missed.
+
+> **Coverage. There is no justifiable goal other than 100%.**
+
+> **Semantic Stability. It means that your test suite tests every line and every branch.** It means that your test suite
+> verifies every behavior written into your system.
+
+> **Mutation testing.** With a mutation testing tool like [pitest](http://pitest.org) we successfully augment a test-suite
+> created with lax TDD discipline into one that I can implicitly trust. The implication of that is significant.
+
+
+
