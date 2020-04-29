@@ -693,5 +693,7 @@ activities should be constrained to.
 > **Mutation testing.** With a mutation testing tool like [pitest](http://pitest.org) we successfully augment a test-suite
 > created with lax TDD discipline into one that I can implicitly trust. The implication of that is significant.
 
-
-
+89. [The Churn](https://blog.cleancoder.com/uncle-bob/2016/07/27/TheChurn.html)
+> **All we are really doing is reinventing the wheel, over, and over again. And we’re wasting massive amounts of time and effort doing it.**
+> New languages aren’t better; they are just shiny. We need to choose a language, or two, or three. A small set of simple
+> frameworks. Build up our tools. Solidify our processes. And become a goddamn profession.
