@@ -697,3 +697,20 @@ activities should be constrained to.
 > **All we are really doing is reinventing the wheel, over, and over again. And we’re wasting massive amounts of time and effort doing it.**
 > New languages aren’t better; they are just shiny. We need to choose a language, or two, or three. A small set of simple
 > frameworks. Build up our tools. Solidify our processes. And become a goddamn profession.
+
+90. [The Lurn](https://blog.cleancoder.com/uncle-bob/2016/09/01/TheLurn.html)
+> **Learn at least one new language every year so that you can come to the understanding that we’ve pretty well explored
+> the language domain.** The fact that we’ve explored one small aspect of our profession does not mean that there aren’t
+> other things to explore and learn. Our field is a rich one. We’ve barely scratched the surface. There are deep things 
+> to learn and understand about computing, and about software. It would be a shame if we never truly explored those 
+> depths because we kept on being distracted by shiny objects.
+
+> **Classic books:**
+* _The Art of Computer Programming: Knuth_
+* _Computer Networks: Tanenbaum_
+* _The Structure and Interpretation of Computer Programs: Abelson and Sussman_
+* _Structured Analysis and System Specification: DeMarco_
+* _Design Patterns: Gamma, Helm, Johnson, Vlissides_
+* _Analysis Patterns: Fowler_
+* _Structured Programming: Dijkstra, Dahl, Hoare_
+* _Object Oriented Software Construction: Meyer_
