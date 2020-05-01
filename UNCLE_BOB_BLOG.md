@@ -722,3 +722,9 @@ activities should be constrained to.
 > Defects are the fault of programmers. It is programmers who create defects – not languages. You test that your system
 > does not emit unexpected nulls. You test that your system handles nulls at it’s inputs. You test that every exception
 > you can throw is caught somewhere.
+
+92. [Types and Tests](https://blog.cleancoder.com/uncle-bob/2017/01/13/TypesAndTests.html)
+> **Type models do not specify behavior.** The correctness of your type model has no bearing on the correctness of the 
+> behavior you have specified. At best the type system will prevent some mechanistic failures of representation 
+> (e.g. Double vs. Int); but you still have to specify every single bit of behavior; and you still have to test every 
+> bit of behavior.
