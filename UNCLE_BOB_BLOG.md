@@ -714,3 +714,11 @@ activities should be constrained to.
 * _Analysis Patterns: Fowler_
 * _Structured Programming: Dijkstra, Dahl, Hoare_
 * _Object Oriented Software Construction: Meyer_
+
+91. [The Dark Path](https://blog.cleancoder.com/uncle-bob/2017/01/11/TheDarkPath.html)
+> **The question is: Whose job is it to manage risks: nulls, exceptions, correct inheritance? 
+> Is it the language’s job? Or is it the programmer’s job?**
+
+> Defects are the fault of programmers. It is programmers who create defects – not languages. You test that your system
+> does not emit unexpected nulls. You test that your system handles nulls at it’s inputs. You test that every exception
+> you can throw is caught somewhere.
