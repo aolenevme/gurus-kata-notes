@@ -735,3 +735,9 @@ activities should be constrained to.
 
 > But when you do have to write a comment; there can be nothing more helpful than a well written
 > , well thought through, comment.
+
+94. [TDD Harms Architecture](https://blog.cleancoder.com/uncle-bob/2017/03/03/TDD-Harms-Architecture.html)
+> **Can TDD harm your design and architecture?** Yes! If you don’t employ design principles 
+> to evolve your production code, if you don’t evolve the tests and code in opposite directions,
+> if you don’t treat the tests as part of your system, if you don’t think about decoupling, 
+> separation and isolation, you will damage your design and architecture – TDD or no TDD.
