@@ -743,7 +743,7 @@ activities should be constrained to.
 > separation and isolation, you will damage your design and architecture – TDD or no TDD.
 
 95. [Testing Like the TSA](https://blog.cleancoder.com/uncle-bob/2017/03/06/TestingLikeTheTSA.html)
-* Treat 100% as an asymptotic goal. 
+* Treat 100% coverage as an asymptotic goal. 
 * Every worthwhile test you don’t write costs you time.
 * There’s generally no reason to test your framework.
 * Don’t integration test things that can be unit tested instead. Test as close to the code as you can.
