@@ -741,3 +741,11 @@ activities should be constrained to.
 > to evolve your production code, if you don’t evolve the tests and code in opposite directions,
 > if you don’t treat the tests as part of your system, if you don’t think about decoupling, 
 > separation and isolation, you will damage your design and architecture – TDD or no TDD.
+
+95. [Testing Like the TSA](https://blog.cleancoder.com/uncle-bob/2017/03/06/TestingLikeTheTSA.html)
+* Treat 100% as an asymptotic goal. 
+* Every worthwhile test you don’t write costs you time.
+* There’s generally no reason to test your framework.
+* Don’t integration test things that can be unit tested instead. Test as close to the code as you can.
+* Cucumber (Gherkin) is worth it only if you have business people and/or QA who are willing to read your tests. If they will also write your acceptance tests then it absolutely worths it.
+* Some controllers, models, and views are too stupid to bother to test. If they are obviously correct, because they are one line of code, then testing them might be superfluous. But be careful. Sometimes one line of code has 20 lines of semantics.
