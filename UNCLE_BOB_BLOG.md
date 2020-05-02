@@ -728,3 +728,10 @@ activities should be constrained to.
 > behavior you have specified. At best the type system will prevent some mechanistic failures of representation 
 > (e.g. Double vs. Int); but you still have to specify every single bit of behavior; and you still have to test every 
 > bit of behavior.
+
+93. [Necessary Comments](https://blog.cleancoder.com/uncle-bob/2017/02/23/NecessaryComments.html)
+> **Code by the principle that good code does not require many comments.** Indeed, it is suggested that every comment 
+> represents a failure to make the code self explanatory. So consider comments as a last resort.
+
+> But when you do have to write a comment; there can be nothing more helpful than a well written
+> , well thought through, comment.
