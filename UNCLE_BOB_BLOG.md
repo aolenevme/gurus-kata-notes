@@ -749,3 +749,8 @@ activities should be constrained to.
 * Don’t integration test things that can be unit tested instead. Test as close to the code as you can.
 * Cucumber (Gherkin) is worth it only if you have business people and/or QA who are willing to read your tests. If they will also write your acceptance tests then it absolutely worths it.
 * Some controllers, models, and views are too stupid to bother to test. If they are obviously correct, because they are one line of code, then testing them might be superfluous. But be careful. Sometimes one line of code has 20 lines of semantics.
+
+96. [Symmetry Breaking](https://blog.cleancoder.com/uncle-bob/2017/03/07/SymmetryBreaking.html)
+* You are not allowed to write any production code without first writing a test that fails because the production code does not exist.
+* You are not allowed to write more of a test than is sufficient to fail; including failure of compilation.
+* You are not allowed to write more production code than is sufficient to pass the currently failing test.
