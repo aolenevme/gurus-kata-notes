@@ -762,3 +762,11 @@ activities should be constrained to.
 * **System Test:** An integration test written for the purpose of ensuring that the internals of the whole integrated system operate as planned. These are plumbing tests. They are not business rule tests. Their purpose is to confirm that the system has been integrated and configured correctly.
 * **Micro-test:** A unit test written at a very small scope. The purpose is to test a single function, or small grouping of functions.
 * **Functional Test:** A unit test written at a larger scope, with appropriate mocks for slow components.
+
+98. [The Brain Problem](https://blog.cleancoder.com/uncle-bob/2017/07/28/TheBrainProblem.html)
+> **Virtually every molecule, if not every atom, in your brain is an active component in the information processing 
+> going on between your ears.**
+
+> The idea that our meager internet, which indirectly interconnects only a trifling few hundreds of millions of 
+> pitifully weak serial processors, could process the information of a single brain is absurd. No, we will not be 
+> achieving artificial sentience any time soon.
