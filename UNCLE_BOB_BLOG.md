@@ -754,3 +754,11 @@ activities should be constrained to.
 * You are not allowed to write any production code without first writing a test that fails because the production code does not exist.
 * You are not allowed to write more of a test than is sufficient to fail; including failure of compilation.
 * You are not allowed to write more production code than is sufficient to pass the currently failing test.
+
+97. [First-Class Tests.](https://blog.cleancoder.com/uncle-bob/2017/05/05/TestDefinitions.html)
+* **Unit Test:** A test written by a programmer for the purpose of ensuring that the production code does what the programmer expects it to do. (For the moment we will ignore the notion that unit tests also aid the design, etc.)
+* **Acceptance Test:** A test written by the business for the purpose of ensuring that the production code does what the business expects it to do. The authors of these tests are business people, or technical people who represent the business. i.e. Business Analysts, and QA.
+* **Integration Test:** A test written by architects and/or technical leads for the purpose of ensuring that a sub-assembly of system components operates correctly. These are plumbing tests. They are not business rule tests. Their purpose is to confirm that the sub-assembly has been integrated and configured correctly.
+* **System Test:** An integration test written for the purpose of ensuring that the internals of the whole integrated system operate as planned. These are plumbing tests. They are not business rule tests. Their purpose is to confirm that the system has been integrated and configured correctly.
+* **Micro-test:** A unit test written at a very small scope. The purpose is to test a single function, or small grouping of functions.
+* **Functional Test:** A unit test written at a larger scope, with appropriate mocks for slow components.
