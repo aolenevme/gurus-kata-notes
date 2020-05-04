@@ -756,7 +756,7 @@ activities should be constrained to.
 * You are not allowed to write more production code than is sufficient to pass the currently failing test.
 
 97. [First-Class Tests.](https://blog.cleancoder.com/uncle-bob/2017/05/05/TestDefinitions.html)
-* **Unit Test:** A test written by a programmer for the purpose of ensuring that the production code does what the programmer expects it to do. (For the moment we will ignore the notion that unit tests also aid the design, etc.)
+* **Unit Test:** A test written by a programmer for the purpose of ensuring that the production code does what the programmer expects it to do.
 * **Acceptance Test:** A test written by the business for the purpose of ensuring that the production code does what the business expects it to do. The authors of these tests are business people, or technical people who represent the business. i.e. Business Analysts, and QA.
 * **Integration Test:** A test written by architects and/or technical leads for the purpose of ensuring that a sub-assembly of system components operates correctly. These are plumbing tests. They are not business rule tests. Their purpose is to confirm that the sub-assembly has been integrated and configured correctly.
 * **System Test:** An integration test written for the purpose of ensuring that the internals of the whole integrated system operate as planned. These are plumbing tests. They are not business rule tests. Their purpose is to confirm that the system has been integrated and configured correctly.
