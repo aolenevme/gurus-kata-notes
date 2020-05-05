@@ -790,5 +790,5 @@ activities should be constrained to.
 
 103. [Tools are not the Answer](https://blog.cleancoder.com/uncle-bob/2017/10/04/CodeIsNotTheAnswer.html)
 > **Programmers are generally undisciplined. Programmers are responsible for faults.** Tools and platforms are not the 
-> answer. Better languages are not the answer. Better frameworks are not the answer.We have to raise the level 
+> answer. Better languages are not the answer. Better frameworks are not the answer. Only programmers raise the level 
 > of software discipline and professionalism. And never make excuses for sloppy work.
