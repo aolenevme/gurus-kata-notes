@@ -787,3 +787,8 @@ activities should be constrained to.
 > **The structure of your tests should not be a mirror of the structure of your code.** The fact that you have a class 
 > named X should not automatically imply that you have a test class named XTest. The act of generalizing the code is 
 > the act of decoupling. As the tests get more specific, the production code gets more generic.
+
+103. [Tools are not the Answer](https://blog.cleancoder.com/uncle-bob/2017/10/04/CodeIsNotTheAnswer.html)
+> **Programmers are generally undisciplined. Programmers are responsible for faults.** Tools and platforms are not the 
+> answer. Better languages are not the answer. Better frameworks are not the answer.We have to raise the level 
+> of software discipline and professionalism. And never make excuses for sloppy work.
