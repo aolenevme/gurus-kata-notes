@@ -795,3 +795,11 @@ activities should be constrained to.
 
 104. [Women In Demand](https://blog.cleancoder.com/uncle-bob/2017/10/04/WomenInDemand.html)
 > **Highly unlikely that quota programs help anyone, both employers and employees.**
+
+105. [Living on the Plateau](https://blog.cleancoder.com/uncle-bob/2017/11/18/OnThePlateau.html)
+> **If we aren’t going to see 1024 core processors in the near future, what need have we of functional programming 
+> languages?** The crisis that drove the current infatuation with functional languages – 
+> seems not to be occurring. And that may well mean that functional languages never achieve the ascendency that we 
+> had anticipated for them. It may just be that Java/C#, and Ruby/Python, and Swift/Dart/Go are, and will be, 
+> sufficient.
+
