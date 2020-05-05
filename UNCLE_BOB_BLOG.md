@@ -770,3 +770,7 @@ activities should be constrained to.
 > The idea that our meager internet, which indirectly interconnects only a trifling few hundreds of millions of 
 > pitifully weak serial processors, could process the information of a single brain is absurd. No, we will not be 
 > achieving artificial sentience any time soon.
+
+99. [Thought Police](https://blog.cleancoder.com/uncle-bob/2017/08/09/ThoughtPolice.html)
+> **If the people in power fire those who express bad ideas then no one other than the people in power will 
+> ever express an idea.** You never punish bad ideas. Instead, you counter bad ideas with better ideas.
