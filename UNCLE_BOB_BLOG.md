@@ -792,3 +792,6 @@ activities should be constrained to.
 > **Programmers are generally undisciplined. Programmers are responsible for faults.** Tools and platforms are not the 
 > answer. Better languages are not the answer. Better frameworks are not the answer. Only programmers raise the level 
 > of software discipline and professionalism. And never make excuses for sloppy work.
+
+104. [Women In Demand](https://blog.cleancoder.com/uncle-bob/2017/10/04/WomenInDemand.html)
+> **Highly unlikely that quota programs help anyone, both employers and employees.**
