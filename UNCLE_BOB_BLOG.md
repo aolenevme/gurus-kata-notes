@@ -782,3 +782,8 @@ activities should be constrained to.
 101. [The Unscrupulous Meme](https://blog.cleancoder.com/uncle-bob/2017/09/29/TheUnscrupulousMeme.html)
 > **The ends don’t justify the means.** The honorable way to deal with a bad idea is not to suppress that idea, 
 > but to present a better idea. Unilateral and asymmetric reaction to an offense leads to degradation of the society.
+
+102. [Test Contra-variance](https://blog.cleancoder.com/uncle-bob/2017/10/03/TestContravariance.html)
+> **The structure of your tests should not be a mirror of the structure of your code.** The fact that you have a class 
+> named X should not automatically imply that you have a test class named XTest. The act of generalizing the code is 
+> the act of decoupling. As the tests get more specific, the production code gets more generic.
