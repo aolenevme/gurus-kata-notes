@@ -774,3 +774,11 @@ activities should be constrained to.
 99. [Thought Police](https://blog.cleancoder.com/uncle-bob/2017/08/09/ThoughtPolice.html)
 > **If the people in power fire those who express bad ideas then no one other than the people in power will 
 > ever express an idea.** You never punish bad ideas. Instead, you counter bad ideas with better ideas.
+
+100. [Just Following Orders](https://blog.cleancoder.com/uncle-bob/2017/08/28/JustFollowingOders.html)
+> **Engineers take note: Your employer can’t cover for you.** Doing your job does not mean that you just follow orders. 
+> The courts are going to hold you to a high ethical standard, even if your employer does not.
+
+101. [The Unscrupulous Meme](https://blog.cleancoder.com/uncle-bob/2017/09/29/TheUnscrupulousMeme.html)
+> **The ends don’t justify the means.** The honorable way to deal with a bad idea is not to suppress that idea, 
+> but to present a better idea. Unilateral and asymmetric reaction to an offense leads to degradation of the society.
