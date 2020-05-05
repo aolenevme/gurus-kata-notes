@@ -803,3 +803,11 @@ activities should be constrained to.
 > had anticipated for them. It may just be that Java/C#, and Ruby/Python, and Swift/Dart/Go are, and will be, 
 > sufficient.
 
+106. [Bobby Tables](https://blog.cleancoder.com/uncle-bob/2017/12/03/BobbyTables.html)
+> **SQL is the ultimate security breech. If there is no SQL engine, then there can be no SQLi attacks.** SQL is a 
+> portable, universal, textual language that can be transmitted through the user interface of a system and, if passed 
+> to the SQL engine, can provide absolute access and control to all the data in the system.
+
+> **What would replace SQL?** An API of course! And NOT an API that uses a textual language. Instead, an API that uses 
+> an appropriate set of data structures and function calls to access the necessary data.
+
