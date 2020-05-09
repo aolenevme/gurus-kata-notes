@@ -819,3 +819,6 @@ activities should be constrained to.
 > So they haul back on the yoke, put their noses into the sky, ram the throttle forward, and then burn fuel madly while 
 > going nowhere in a hurry. They don’t understand that when you make a mess, you induce drag, and you cancel out your 
 > power.
+
+109. [The Citizenship Argument](https://blog.cleancoder.com/uncle-bob/2018/01/18/TheCitizenshipArgument.html)
+> **TDD is, in fact, about being a good moral citizen of the software community. TDD is about professional ethics.**
