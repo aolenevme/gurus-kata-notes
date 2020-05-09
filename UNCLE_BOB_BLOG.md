@@ -827,3 +827,7 @@ activities should be constrained to.
 > **Every line of code represents an ethical and moral decision.** It is well past the time that we programmers can 
 > safely isolate ourselves from the rest of the world. We programmers must no longer hide in our little techie bubbles. 
 > The code we programmers write matters. It matters to the hopes and dreams of our society and of our civilization.
+
+111. [In The Large](https://blog.cleancoder.com/uncle-bob/2018/04/02/InTheLarge.html)
+> **We, humans, are really quite good at doing big things. Agile is a revolution in how relatively small teams can 
+> develop relatively small software projects.**
