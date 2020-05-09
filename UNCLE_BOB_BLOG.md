@@ -813,3 +813,9 @@ activities should be constrained to.
 
 107. [Excuses](https://blog.cleancoder.com/uncle-bob/2017/12/18/Excuses.html)
 > **TDD is a good discipline for ensuring that the complex documents, full of arcane symbols, are crafted in such a way so as to avoid significant negative consequences.**
+
+108. [Operating Behind the Power Curve](https://blog.cleancoder.com/uncle-bob/2018/01/15/behindThePowerCurve.html)
+> **Startup culture in the U.S. start out believing that power and speed are related without paying any attention to drag.**
+> So they haul back on the yoke, put their noses into the sky, ram the throttle forward, and then burn fuel madly while 
+> going nowhere in a hurry. They don’t understand that when you make a mess, you induce drag, and you cancel out your 
+> power.
