@@ -822,3 +822,8 @@ activities should be constrained to.
 
 109. [The Citizenship Argument](https://blog.cleancoder.com/uncle-bob/2018/01/18/TheCitizenshipArgument.html)
 > **TDD is, in fact, about being a good moral citizen of the software community. TDD is about professional ethics.**
+
+110. [We Programmers](https://blog.cleancoder.com/uncle-bob/2018/03/29/WeProgrammers.html)
+> **Every line of code represents an ethical and moral decision.** It is well past the time that we programmers can 
+> safely isolate ourselves from the rest of the world. We programmers must no longer hide in our little techie bubbles. 
+> The code we programmers write matters. It matters to the hopes and dreams of our society and of our civilization.
