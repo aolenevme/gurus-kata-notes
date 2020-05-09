@@ -829,5 +829,5 @@ activities should be constrained to.
 > The code we programmers write matters. It matters to the hopes and dreams of our society and of our civilization.
 
 111. [In The Large](https://blog.cleancoder.com/uncle-bob/2018/04/02/InTheLarge.html)
-> **We, humans, are really quite good at doing big things. Agile is a revolution in how relatively small teams can 
-> develop relatively small software projects.**
+> **We, humans, are really quite good at doing big things. And Agile is not about big things. Agile is a revolution 
+> in how relatively small teams can develop relatively small software projects.**
