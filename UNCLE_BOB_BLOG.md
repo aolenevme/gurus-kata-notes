@@ -811,3 +811,5 @@ activities should be constrained to.
 > **What would replace SQL?** An API of course! And NOT an API that uses a textual language. Instead, an API that uses 
 > an appropriate set of data structures and function calls to access the necessary data.
 
+107. [Excuses](https://blog.cleancoder.com/uncle-bob/2017/12/18/Excuses.html)
+> **TDD is a good discipline for ensuring that the complex documents, full of arcane symbols, are crafted in such a way so as to avoid significant negative consequences.**
