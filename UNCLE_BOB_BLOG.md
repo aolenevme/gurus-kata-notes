@@ -832,7 +832,26 @@ activities should be constrained to.
 > **We, humans, are really quite good at doing big things. And Agile is not about big things. Agile is a revolution 
 > in how relatively small teams can develop relatively small software projects.**
 
-112. [Pickled State](https://blog.cleancoder.com/uncle-bob/2018/06/06/PickledState.html)
+112. [FP vs. OO](https://blog.cleancoder.com/uncle-bob/2018/04/13/FPvsOO.html)
+> **The reductive definition of OO is:**
+~~~
+The technique of using dynamic polymorphism to call functions without the source code of the caller depending 
+upon the source code of the callee.
+~~~
+
+> **The reductive definition of functional programming is:**
+~~~
+Referential Transparency – no reassignment of values.
+~~~
+
+> **FP and OO work nicely together. Both attributes are desirable as part of modern systems.** A system that is built on 
+> both OO and FP principles will maximize flexibility, maintainability, testability, simplicity, and robustness. 
+> Excluding one in favor of the other can only weaken the structure of a system. 
+~~~
+_f(o)_ is equal to _o.f()_
+~~~
+
+113. [Pickled State](https://blog.cleancoder.com/uncle-bob/2018/06/06/PickledState.html)
 > **The next time you are using BDD and/or Gherkin to specify a system, remember that what you are really doing is 
 > specifying a finite state machine.** If you are careful to identify the states and events, you will make it a lot 
 > easier to find the missing {state,event} pairs and create a more complete specification.
