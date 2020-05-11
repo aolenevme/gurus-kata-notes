@@ -831,3 +831,19 @@ activities should be constrained to.
 111. [In The Large](https://blog.cleancoder.com/uncle-bob/2018/04/02/InTheLarge.html)
 > **We, humans, are really quite good at doing big things. And Agile is not about big things. Agile is a revolution 
 > in how relatively small teams can develop relatively small software projects.**
+
+112. [Pickled State](https://blog.cleancoder.com/uncle-bob/2018/06/06/PickledState.html)
+> **The next time you are using BDD and/or Gherkin to specify a system, remember that what you are really doing is 
+> specifying a finite state machine.** If you are careful to identify the states and events, you will make it a lot 
+> easier to find the missing {state,event} pairs and create a more complete specification.
+
+> **Example:**
+~~~
+GIVEN that we have ARRANGED the system for the test.
+WHEN we perform the tested ACTION.
+THEN we can ASSERT the conditions that pass the test.
+
+GIVEN that we are in the CURRENT_STATE, 
+WHEN we get the EVENT, 
+THEN we go to the NEXT_STATE. 
+~~~
