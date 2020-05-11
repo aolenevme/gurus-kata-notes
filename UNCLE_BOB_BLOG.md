@@ -839,7 +839,7 @@ The technique of using dynamic polymorphism to call functions without the source
 upon the source code of the callee.
 ~~~
 
-> **The reductive definition of functional programming is:**
+> **The reductive definition of FP is:**
 ~~~
 Referential Transparency – no reassignment of values.
 ~~~
@@ -848,7 +848,7 @@ Referential Transparency – no reassignment of values.
 > both OO and FP principles will maximize flexibility, maintainability, testability, simplicity, and robustness. 
 > Excluding one in favor of the other can only weaken the structure of a system. 
 ~~~
-_f(o)_ is equal to _o.f()_
+f(o) is equal to o.f()
 ~~~
 
 113. [Pickled State](https://blog.cleancoder.com/uncle-bob/2018/06/06/PickledState.html)
