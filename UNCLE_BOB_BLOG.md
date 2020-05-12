@@ -881,3 +881,8 @@ THEN we go to the NEXT_STATE.
 * Classes make functions visible while keeping data implied. Data structures make data visible while keeping functions implied.
 * Classes make it easy to add types but hard to add functions. Data structures make it easy to add functions but hard to add types.
 * Data Structures expose callers to recompilation and redeployment. Classes isolate callers from recompilation and redeployment.
+
+116. [Why won't it...](https://blog.cleancoder.com/uncle-bob/2019/07/22/WhyWontIt.html)
+> **Software is supposed to make life easier. Software is supposed to ease and enable the job of users. All too often, 
+> however, software is constraining and restrictive.** If you don’t do what the software expects,
+> the software fights you and stops you. And you mutter under your breath: “Why won’t it…”
