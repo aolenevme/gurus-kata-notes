@@ -866,3 +866,12 @@ GIVEN that we are in the CURRENT_STATE,
 WHEN we get the EVENT, 
 THEN we go to the NEXT_STATE. 
 ~~~
+
+114. [737 Max 8](https://blog.cleancoder.com/uncle-bob/2019/05/18/737-Max-8.html)
+> **We, programmers, are killing people. Our errors cause loss, injury, and death. It’s our fingers on the keyboards.** 
+> It’s our code running in the machines. No matter who else is involved in these errors, we are the ones 
+> who write that code:
+* We have to know the business domains we are coding for.
+* We need to have the knowledge and insight to foresee and manage the risks our code might incur.
+* We need to employ the practices and disciplines that keep our users, our customers, and our employers safe.
+* We need to have the courage to say “No” when we assess that the risk of deploying our code is too high.
