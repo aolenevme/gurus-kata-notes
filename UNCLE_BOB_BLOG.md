@@ -875,3 +875,9 @@ THEN we go to the NEXT_STATE.
 * We need to have the knowledge and insight to foresee and manage the risks our code might incur.
 * We need to employ the practices and disciplines that keep our users, our customers, and our employers safe.
 * We need to have the courage to say “No” when we assess that the risk of deploying our code is too high.
+
+115. [Classes vs. Data Structures](https://blog.cleancoder.com/uncle-bob/2019/06/16/ObjectsAndDataStructures.html)
+> **Classes and Data Structures are opposites in at least three different ways:**
+* Classes make functions visible while keeping data implied. Data structures make data visible while keeping functions implied.
+* Classes make it easy to add types but hard to add functions. Data structures make it easy to add functions but hard to add types.
+* Data Structures expose callers to recompilation and redeployment. Classes isolate callers from recompilation and redeployment.
