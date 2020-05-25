@@ -5,4 +5,5 @@ I do it everyday. And at some point of time I decided to take notes here, online
 will somehow find this repository.
 
 ### Gurus
-* [The Uncle Bob's Blog](UNCLE_BOB_BLOG.md)
+* [Uncle Bob's Blog](UNCLE_BOB_BLOG.md)
+* [Martin Fowler's Blog](MARTIN_FOWLER.md)
