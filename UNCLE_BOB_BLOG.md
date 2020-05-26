@@ -311,27 +311,18 @@
 > **But our up front decisions are limited to choosing a user experience, and choosing the architectural pattern that is most consistent with that user experience.** 
 > Fortunately, the number of system architectures is relatively small: request/response systems (websites), event-driven applications (games), etc.
 
-43. [The Domain Discontinuity](https://blog.cleancoder.com/uncle-bob/2014/01/27/TheChickenOrTheRoad.html)
-> **Restrict tests to operate through a small set of public methods.** Create tests that define _behaviours_, so _they are not coupled to the code_.
-
-> **TDD can\`t even be begun until we know the architecture up front.** Because tests are a kind of _formal statement of requirements_. 
-> So we can use TDD only to help us design a feature that lives within the architecture. Architecture and problem domain are _discontinuous_. 
-
-> **So our up front decisions are limited to choosing a user experience, and choosing the architectural pattern that is most consistent with that user experience.** 
-> Fortunately, the number of system architectures is relatively small: request/response systems (websites), event-driven applications (games), etc.
-
-44. [Where is the Foreman?](https://blog.cleancoder.com/uncle-bob/2014/02/21/WhereIsTheForeman.html)
+43. [Where is the Foreman?](https://blog.cleancoder.com/uncle-bob/2014/02/21/WhereIsTheForeman.html)
 > **If you want to get a project done, done right, and done on time, you need a foreman.** And that foreman has to be so technically astute that he can check the work of all the workers. 
 > He has to be a guy with the commit rights. He has to make sure all the tests are written, and all the concerns are separated, and all the right dependencies are inverted. 
 > He has to have the authority to reject any work he considers sub-standard. He has to have the power to say “No” to the unreasonable demands of the customers and managers. 
 > Where is the Foreman?
 
-45. [Oh Foreman, Where art Thou?](https://blog.cleancoder.com/uncle-bob/2014/02/23/OhForemanWhereArtThou.html)
+44. [Oh Foreman, Where art Thou?](https://blog.cleancoder.com/uncle-bob/2014/02/23/OhForemanWhereArtThou.html)
 > **The truth about teams is that teams only function well when there is a competent leader that holds the commit rights.** In a well functioning team the foreman allows everyone to commit, 
 > and then simply, and silently, reviews the work. If someone does a great job, an attaboy is appropriate. If someone does a poor job, a private conversation, 
 > followed by remedial action, is appropriate. In the normal case, everyone on the team can commit.
 
-46. [A Spectrum of Trust](https://blog.cleancoder.com/uncle-bob/2014/02/27/TheTrustSpectrum.html)
+45. [A Spectrum of Trust](https://blog.cleancoder.com/uncle-bob/2014/02/27/TheTrustSpectrum.html)
 > The perfect agile team is composed of 6-12 experienced developers with good design sense and a deep commitment to craftsmanship. 
 > They all sit around a single table. They all start and end work at the same time. They all pair with each other 100% of the time; changing pair partners several times per day. 
 > They have an on-site customer who perfectly balances the backlog. Their velocity is consistent and flat from iteration to iteration. They all practice TDD perfectly. 
@@ -339,26 +330,26 @@
 >
 > **The open-source committer model (i.e. using foremen) has been shown very effective at achieving those ends.**
 
-47. [When Should You Think?](https://blog.cleancoder.com/uncle-bob/2014/03/11/when-to-think.html)
+46. [When Should You Think?](https://blog.cleancoder.com/uncle-bob/2014/03/11/when-to-think.html)
 > **Think before you code. Then think as you code. Then think after you code.** 
 > Again, there is a nice video [Hammock Driven Development](https://www.youtube.com/watch?v=f84n5oFoZBc&t=18s) by Rich Hickey.
 
-48. [The True Corruption of Agile](https://blog.cleancoder.com/uncle-bob/2014/03/28/The-Corruption-of-Agile.html)
+47. [The True Corruption of Agile](https://blog.cleancoder.com/uncle-bob/2014/03/28/The-Corruption-of-Agile.html)
 > **Agile is a culture expressed through a set of practices.** You can’t have a culture without practices; and the practices you follow identify your culture.
 
-49. [Code Hoarders](https://blog.cleancoder.com/uncle-bob/2014/04/03/Code-Hoarders.html)
+48. [Code Hoarders](https://blog.cleancoder.com/uncle-bob/2014/04/03/Code-Hoarders.html)
 > **Is your work leaving a legacy of value, or are you just building a monstrous hoard for someone else to clean up?**
 > Professionals make things better with time. The Legacy code left by professionals will be cleaner and cleaner the 
 > older it is because it has enjoyed the long attention of those professionals.
 
-50. [Monogamous TDD](https://blog.cleancoder.com/uncle-bob/2014/04/25/MonogamousTDD.html)
+49. [Monogamous TDD](https://blog.cleancoder.com/uncle-bob/2014/04/25/MonogamousTDD.html)
 > **Why do we do TDD?**
 * We spend less time debugging;
 * The tests act as accurate, precise, and unambiguous documentation at the lowest level of the system;
 * Writing tests first requires decoupling that other testing strategies do not; and we believe that such decoupling is beneficial;
 * If you have a test suite that you trust so much that you are willing to deploy the system based solely on those tests passing; and if that test suite can be executed in seconds, or minutes, then you can quickly and easily clean the code without fear.
 
-51. [When TDD doesn't work.](https://blog.cleancoder.com/uncle-bob/2014/04/30/When-tdd-does-not-work.html)
+50. [When TDD doesn't work.](https://blog.cleancoder.com/uncle-bob/2014/04/30/When-tdd-does-not-work.html)
 > **Remember the TDD rule: As the tests get more specific, the code gets more generic.**
 
 > So there are areas where tests aren\`t appropriate:
@@ -366,7 +357,7 @@
 * The layer just in front of that boundary that requires human interaction to fiddle with the results. Like config files;
 * The support code for unit tests.
 
-52. [Test Induced Design Damage?](https://blog.cleancoder.com/uncle-bob/2014/05/01/Design-Damage.html)
+51. [Test Induced Design Damage?](https://blog.cleancoder.com/uncle-bob/2014/05/01/Design-Damage.html)
 > **Programmers who “faithfully” practice TDD will create code that is “warped out of shape solely to accommodate testing objectives”.**
 
 > **How do you separate concerns?** You separate behaviors that change at different times for different reasons. 
@@ -376,7 +367,7 @@
 > Database schemas change for very different reasons, and at very different rates than business rules. 
 > Keeping these concerns separate is _good design_.
 
-53. [Professionalism and TDD (Reprise)](https://blog.cleancoder.com/uncle-bob/2014/05/02/ProfessionalismAndTDD.html)
+52. [Professionalism and TDD (Reprise)](https://blog.cleancoder.com/uncle-bob/2014/05/02/ProfessionalismAndTDD.html)
 > **Patients are dying out there! Our society as a whole is becoming more and more dependent on the software we produce; and the failures grow in significance with every passing year.**
 > 
 > If TDD is as significant to software as hand-washing was to medicine and is instrumental in pulling us back from the 
@@ -384,7 +375,7 @@
 > After that, those who refuse to practice TDD will be excused from the ranks of professional programmers. It would not surprise me if, 
 > one day, TDD had the force of law behind it.
 
-54. [The Single Responsibility Principle](https://blog.cleancoder.com/uncle-bob/2014/05/08/SingleReponsibilityPrinciple.html)
+53. [The Single Responsibility Principle](https://blog.cleancoder.com/uncle-bob/2014/05/08/SingleReponsibilityPrinciple.html)
 > **The Single Responsibility Principle (SRP) states that each software module should have one and only one reason to change.**
 > This principle is about people. It is people who request changes. And you don’t want to confuse those people, or yourself.
   
@@ -396,7 +387,7 @@
 
 > **Gather together the things that change for the same reasons. Separate those things that change for different reasons.**
 
-55. [When to Mock](https://blog.cleancoder.com/uncle-bob/2014/05/10/WhenToMock.html)
+54. [When to Mock](https://blog.cleancoder.com/uncle-bob/2014/05/10/WhenToMock.html)
 > **Mock across architecturally significant boundaries, but not within those boundaries.**
 > It forces you to think through what your significant architectural boundaries are and to manage the dependencies across those boundaries 
 > so that you can independently deploy (and develop) the components on either side of the boundary. 
@@ -404,14 +395,14 @@
 > **Write your own mocks.**
 > Writing your own mocks means you have to design your mocking structure. Plus, mocking across architectural boundaries is easy. And writing those mocks is trivial. 
 
-56. [Framework Bound](https://blog.cleancoder.com/uncle-bob/2014/05/11/FrameworkBound.html)
+55. [Framework Bound](https://blog.cleancoder.com/uncle-bob/2014/05/11/FrameworkBound.html)
 > **Frameworks are written by people to solve certain problems that they have. Those problems may be similar to yours, but they are not yours.** You have different problems. 
 > To the extent that your problems overlap, the framework can be enormously helpful. To the extent that your problems conflict, the framework can be a huge impediment.
 
 > **Don\`t let those frameworks get too close.** They can touch peripheral subsystems; but keep them away from the core business logic. 
 > The high level policies of systems shall never be touched by frameworks.
 
-57. [The Open Closed Principle](https://blog.cleancoder.com/uncle-bob/2014/05/12/TheOpenClosedPrinciple.html)
+56. [The Open Closed Principle](https://blog.cleancoder.com/uncle-bob/2014/05/12/TheOpenClosedPrinciple.html)
 > **You should be able to extend the behavior of a system without having to modify that system.** In other words, adding a new feature would involve leaving the old code in place
 > and only deploying the new code like isolated features!
 
@@ -420,10 +411,10 @@
 
 > **When your fundamental business rules are the core of a plugin architecture, then you are never bound to a particular feature set, interface, database, framework, or anything else.**
 
-58. [The Little Mocker](https://blog.cleancoder.com/uncle-bob/2014/05/14/TheLittleMocker.html)
+57. [The Little Mocker](https://blog.cleancoder.com/uncle-bob/2014/05/14/TheLittleMocker.html)
 > **Mostly use dummies, stubs, and spies. Write your own.** Don’t often use mocking tools. Otherwise you code may become extremely complicated.
 
-59. [First](https://blog.cleancoder.com/uncle-bob/2014/05/19/First.html)
+58. [First](https://blog.cleancoder.com/uncle-bob/2014/05/19/First.html)
 > **You’re not done until you also have tests for a piece of functionality.**
 
 > **Documentation.** Well designed tests are small isolated snippets of code that call into the system being tested, expecting certain results. 
@@ -435,43 +426,43 @@
 > **Confidence.** A well designed test suite with a high degree of coverage eliminates, or at least strongly mitigates the fear of change. 
 > And when you aren’t afraid to change your code, you will clean it. And if you clean it, it won’t rot. And if it doesn’t rot, then the software team can go fast.
 
-60. [Is TDD Dead? Final Thoughts about Teams.](https://blog.cleancoder.com/uncle-bob/2014/06/17/IsTddDeadFinalThoughts.html)
+59. [Is TDD Dead? Final Thoughts about Teams.](https://blog.cleancoder.com/uncle-bob/2014/06/17/IsTddDeadFinalThoughts.html)
 > **High-functioning teams must have a shared set of values.** Teams that don’t enjoy a shared set of values are unstable. 
 > If each member of the team does what is right in their own eyes, without considering the values of the team; 
 > then they don’t actually comprise a team. Instead they will behave chaotically, and work at cross purposes to each other.
 
-61. [My Lawn](https://blog.cleancoder.com/uncle-bob/2014/06/20/MyLawn.html)
+60. [My Lawn](https://blog.cleancoder.com/uncle-bob/2014/06/20/MyLawn.html)
 > **The older the programmer, the more questions the programmer can answer – and can take the time to answer.** 
 > The implication is that older programmers are less rushed because they have more knowledge and skill. 
 > Code doesn’t have to pour out of all their orifices because they can solve problems calmly, quickly, 
 > and easily with much less code.
 
-62. [A Little About Patterns](https://blog.cleancoder.com/uncle-bob/2014/06/30/ALittleAboutPatterns.html)
+61. [A Little About Patterns](https://blog.cleancoder.com/uncle-bob/2014/06/30/ALittleAboutPatterns.html)
 > **Design Patterns: Elements of Reusable Object-Oriented Software, by Eric Gamma, Richard Helm, Ralph Johnson, and John Vlissides.**
 
 > The ideas aren’t glitter. The frameworks are. Most of the ideas in those frameworks are old. They’ve been around for decades. The ideas are … Design Patterns.
 
-63. [Test Time](https://blog.cleancoder.com/uncle-bob/2014/09/03/TestTime.html)
+62. [Test Time](https://blog.cleancoder.com/uncle-bob/2014/09/03/TestTime.html)
 > **Programmers who care about their systems, care about the tests for those systems.** Programmers who care about the tests, 
 > make sure those tests run fast. Slow running tests represent a design flaw that reflects on the experience and professionalism 
 > of the team. A slow running test suite is either a freshman error, or just plain carelessness.
 
-64. [The More Things Change...](https://blog.cleancoder.com/uncle-bob/2014/09/18/TheMoreThingsChange.html)
+63. [The More Things Change...](https://blog.cleancoder.com/uncle-bob/2014/09/18/TheMoreThingsChange.html)
 > **The more things change, the more they stay the same.**
 
-65. [Microservices and Jars](https://blog.cleancoder.com/uncle-bob/2014/09/19/MicroServicesAndJars.html)
+64. [Microservices and Jars](https://blog.cleancoder.com/uncle-bob/2014/09/19/MicroServicesAndJars.html)
 > **Don’t leap into microservices just because it sounds cool.** One thing you lose is time. It takes time to communicate through a socket. 
 > It takes time to decode REST messages. Try instead to segregate the system into jars using a plugin architecture first. 
 > If that’s not sufficient, then consider introducing service boundaries at strategic points.
 
-66. [Clean Micro-service Architecture](https://blog.cleancoder.com/uncle-bob/2014/10/01/CleanMicroserviceArchitecture.html)
+65. [Clean Micro-service Architecture](https://blog.cleancoder.com/uncle-bob/2014/10/01/CleanMicroserviceArchitecture.html)
 > **Micro-services are a deployment option, not an architecture.** Like all options, a good architect keeps them open for as long as possible. 
 > A good architect defers the decision about how the system will be deployed until the last responsible moment.  
 
 > But if you can only deploy your system with micro-services, then you have coupled your architecture to that particular deployment model. 
 > Indeed a system with a good Clean Architecture does not know which deployment option it is using.
 
-67. [The Obligation of the Programmer.](https://blog.cleancoder.com/uncle-bob/2014/11/15/WeRuleTheWorld.html)
+66. [The Obligation of the Programmer.](https://blog.cleancoder.com/uncle-bob/2014/11/15/WeRuleTheWorld.html)
 > **Order of the Programmer**
 ~~~
 I am a computer programmer, I take deep pride in my profession. To it I owe solemn obligations.
@@ -491,7 +482,7 @@ When needed, my skill and knowledge shall be given without reservation for the p
 In the performance of duty and in fidelity to my profession, I shall give the utmost.
 ~~~
 
-68. [Thorns around the Gold](https://blog.cleancoder.com/uncle-bob/2014/11/19/GoingForTheGold.html)
+67. [Thorns around the Gold](https://blog.cleancoder.com/uncle-bob/2014/11/19/GoingForTheGold.html)
 > **Write as many tests as you can that ignore the core functionality and deal instead with exceptional, degenerate, and ancillary behaviors.** 
 > In that order, one by one:
 
@@ -505,7 +496,7 @@ In the performance of duty and in fidelity to my profession, I shall give the ut
 > to be useful to the core functionality in some in-obvious way. For example, it turns out that 
 > the size of a stack is the array index used for push and pop operations in fixed-length stacks.
 
-69. [OO vs FP](https://blog.cleancoder.com/uncle-bob/2014/11/24/FPvsOO.html)
+68. [OO vs FP](https://blog.cleancoder.com/uncle-bob/2014/11/24/FPvsOO.html)
 > **OO is not about state.** Objects are bags of functions, not bags of data.
 
 > **Functional Programs, like OO Programs, are composed of functions that operate on data.** 
@@ -521,7 +512,7 @@ In the performance of duty and in fidelity to my profession, I shall give the ut
 > **Do both.** OO programming is good, when you know what it is. Functional programming 
 > is good when you know what it is. And functional OO programming is also good once you know what it is.
 
-70. [The Cycles of TDD](https://blog.cleancoder.com/uncle-bob/2014/12/17/TheCyclesOfTDD.html)
+69. [The Cycles of TDD](https://blog.cleancoder.com/uncle-bob/2014/12/17/TheCyclesOfTDD.html)
 > **Second-by-Second nano-cycle. The Three Laws of TDD.**
 ~~~
 1. You must write a failing test before you write any production code.
@@ -550,34 +541,34 @@ We make decisions about where to draw those boundaries, and which side of those 
 activities should be constrained to. 
 ~~~
 
-71. [The MODE-B Imperative](https://blog.cleancoder.com/uncle-bob/2015/02/21/ModeBImperative.html)
+70. [The MODE-B Imperative](https://blog.cleancoder.com/uncle-bob/2015/02/21/ModeBImperative.html)
 > **Why do so many programmers still work in a way that they pile mess upon mess, and framework upon a framework, 
 > until their loop time grows from seconds to minutes and longer?** They inject so many dependencies that the builds 
 > become fragile and error-prone. They create so many unisolated external dependencies that they might as well be 
 > using paper tape. Why would anybody do anything that increased their loop time? Why wouldn’t everyone defend their
 > loop time with their lives?
 
-72. [Does Organization Matter?](https://blog.cleancoder.com/uncle-bob/2015/04/15/DoesOrganizationMatter.html)
+71. [Does Organization Matter?](https://blog.cleancoder.com/uncle-bob/2015/04/15/DoesOrganizationMatter.html)
 > **Relatively simple things can tolerate a certain level of disorganization. However, as complexity increases, disorganization becomes suicidal.** 
 
-73. [Language Layers](https://blog.cleancoder.com/uncle-bob/2015/04/27/LanguageLayers.html)
+72. [Language Layers](https://blog.cleancoder.com/uncle-bob/2015/04/27/LanguageLayers.html)
 > **Maybe we need to stop writing new languages** and just settle down and pick one or two that work really well. 
 > That would make life a lot simpler for us wouldn’t it?
 
-74. [The First Micro-service Architecture](https://blog.cleancoder.com/uncle-bob/2015/05/28/TheFirstMicroserviceArchitecture.html)
+73. [The First Micro-service Architecture](https://blog.cleancoder.com/uncle-bob/2015/05/28/TheFirstMicroserviceArchitecture.html)
 > **There’s nothing new under the Sun.** The microservice architecture was used back in 1960.
 
-75. [The Little Singleton](https://blog.cleancoder.com/uncle-bob/2015/07/01/TheLittleSingleton.html)
+74. [The Little Singleton](https://blog.cleancoder.com/uncle-bob/2015/07/01/TheLittleSingleton.html)
 > **In a public API if you want to ensure that only one instance is being created, then use a Singleton. 
 > If it’s not in a public API, just create one instance.**
 
-76. [Pattern Pushers](https://blog.cleancoder.com/uncle-bob/2015/07/05/PatternPushers.html)
+75. [Pattern Pushers](https://blog.cleancoder.com/uncle-bob/2015/07/05/PatternPushers.html)
 > **It’s a good idea to learn patterns. It is not a good idea to hunt for places to use patterns.** 
 > Instead, if you know the patterns well, then you will find places in your systems where they fit naturally. Then, 
 > if you use the pattern names and canonical forms, you provide a kind of automatic documentation to others on your 
 > team who know those patterns.
 
-77. [Make the Magic go away](https://blog.cleancoder.com/uncle-bob/2015/08/06/LetTheMagicDie.html)
+76. [Make the Magic go away](https://blog.cleancoder.com/uncle-bob/2015/08/06/LetTheMagicDie.html)
 > **My language sucks! Every framework you’ve ever seen is really just an echo of this statement.** 
 
 > **Those who do not remember the past are condemned to repeat it.** - _Jorge Agustin Nicolas Ruiz de Santayana y Borras_
@@ -587,11 +578,11 @@ activities should be constrained to.
 > writing something simple that does the basics that you need. Make sure the magic all goes away. 
 > And then look at the framework again. Is it worth it? Can you live without it?
 
-78. [A Little Structure](https://blog.cleancoder.com/uncle-bob/2015/09/23/ALittleStructure.html)
+77. [A Little Structure](https://blog.cleancoder.com/uncle-bob/2015/09/23/ALittleStructure.html)
 > **Structured Programming imposes discipline upon direct transfer of control.** The discipline says
 > that it is easier to reason about the code using only Sequences, Selections and Iterations.
 
-79. [WATS Line 54](https://blog.cleancoder.com/uncle-bob/2015/10/05/WattsLine54.html)
+78. [WATS Line 54](https://blog.cleancoder.com/uncle-bob/2015/10/05/WattsLine54.html)
 > **It seems to me that a software craftsman is a Responsible Engineer.** A Software Craftsman should 
 > never be insulated from the real world of the customer, of devops, of QA, or of anything else. 
 > The responsibilities of a team of software craftsmen should include QA; should include devops; 
@@ -600,7 +591,7 @@ activities should be constrained to.
 
 > **There’s nothing wrong with specialization. There is a lot wrong with insulation.**
 
-80. [Agile is not now, nor was it ever, Waterfall.](https://blog.cleancoder.com/uncle-bob/2015/10/16/Agile-And-Waterfall.html)
+79. [Agile is not now, nor was it ever, Waterfall.](https://blog.cleancoder.com/uncle-bob/2015/10/16/Agile-And-Waterfall.html)
 > **Does every software team need the entire suite of agile practices? Of course not.** 
 > So we can choose some of them:
 * The Planning Game.
@@ -616,14 +607,14 @@ activities should be constrained to.
 * Refactoring.
 * TDD. 
 
-81. [Future Proof](https://blog.cleancoder.com/uncle-bob/2015/10/30/FutureProof.html)
+80. [Future Proof](https://blog.cleancoder.com/uncle-bob/2015/10/30/FutureProof.html)
 > External Data. **Anything that changes frequently should be outside the code.**
 
 > Decoupling Modules. **Any module that changes frequently should be decoupled from the rest of the system.**
 
 > Tests. **Write mocks on your own. Hand written mocks don’t pollute your setups.**
 
-82. [The Programmer's Oath](https://blog.cleancoder.com/uncle-bob/2015/11/18/TheProgrammersOath.html)
+81. [The Programmer's Oath](https://blog.cleancoder.com/uncle-bob/2015/11/18/TheProgrammersOath.html)
 > **In order to defend and preserve the honor of the profession of computer programmers, I Promise that, to the best of my ability and judgement:**
 * I will not produce harmful code.
 * The code that I produce will always be my best work. I will not knowingly allow code that is defective either in behavior or structure to accumulate.
@@ -635,7 +626,7 @@ activities should be constrained to.
 * I will produce estimates that are honest both in magnitude and precision. I will not make promises without certainty.
 * I will never stop learning and improving my craft.
 
-83. [Prelude to a Profession](https://blog.cleancoder.com/uncle-bob/2015/11/27/OathDiscussion.html)
+82. [Prelude to a Profession](https://blog.cleancoder.com/uncle-bob/2015/11/27/OathDiscussion.html)
 > **We rule the world. We write the rules that make the whole world work.** Without software, quite frankly, and
 > quite literally, we all die. With that great power ought to come great responsibility. And, indeed, society will 
 > hold us responsible when our actions result in disaster. And yet nothing binds us together as a profession. 
@@ -644,7 +635,7 @@ activities should be constrained to.
 > society will force it upon us – and define it for us. And that will be good neither for society, nor for us. We must 
 > get there first.
 
-84. [Stabilization Phases](https://blog.cleancoder.com/uncle-bob/2016/01/14/Stabilization.html)
+83. [Stabilization Phases](https://blog.cleancoder.com/uncle-bob/2016/01/14/Stabilization.html)
 > **We run them because we are afraid. We are afraid because we are uncertain what the system will do.** 
 > The longer a team wants a stabilization phase to run, the less certain that team is about the system.
 
@@ -654,7 +645,7 @@ activities should be constrained to.
 * Do you have automated integration tests written by architects and development leads. Do those tests stress the communications pathways between the components? Do they check for corner cases, boundary issues, and timeouts? Do they probe system behavior under varying loads?
 * If you have multiple threads, do you have a strategy for stressing those threads during your unit tests and acceptance tests? For example, have you implemented tools that introduce random delays and random loads so that the chances of race conditions are magnified. Better yet, are you gradually eliminating the possibility of race conditions by eliminating mutable state between threads? Have you drawn all the message sequence charts and examined them for potential races?
 
-85. [Giving Up on TDD](https://blog.cleancoder.com/uncle-bob/2016/03/19/GivingUpOnTDD.html)
+84. [Giving Up on TDD](https://blog.cleancoder.com/uncle-bob/2016/03/19/GivingUpOnTDD.html)
 > **If many of your tests break every time you change the production code then you have over-coupled the tests to the code.**
 > You have a test design problem. No matter what you are writing; whether a unit test, or an acceptance test, or 
 > production code, or a mock, or a stub, you have to DESIGN.
@@ -666,19 +657,19 @@ activities should be constrained to.
 > as much as possible. That’s one of the reasons we have other people, like business analysts and Quality Assurance 
 > testers, write acceptance tests.
 
-86. [Type Wars](https://blog.cleancoder.com/uncle-bob/2016/05/01/TypeWars.html)
+85. [Type Wars](https://blog.cleancoder.com/uncle-bob/2016/05/01/TypeWars.html)
 > **You don’t need static type checking if you have 100% unit test coverage. Programmers begin to realize that they could 
 > become much more productive by switching to a dynamically typed language.** Unit test coverage close to 100% can, 
 > and is, being achieved. What’s more, the benefits of that achievement are enormous.
 
-87. [Blue. No! Yellow!](https://blog.cleancoder.com/uncle-bob/2016/05/21/BlueNoYellow.html)
+86. [Blue. No! Yellow!](https://blog.cleancoder.com/uncle-bob/2016/05/21/BlueNoYellow.html)
 > **No future language will give us the factor of 10 advantage that assembler gave us over binary.** 
 > No future language will give us 50%, or 20%, or even 10% reduction in workload over current languages. 
 > The short-cycle discipline has reduced the differences to virtual immeasurability. So long as you work in short 
 > cycles, it hardly matters what modern language you use. It’s a quest for the Holy Grail why are 
 > there always new languages being invented.
 
-88. [Mutation Testing](https://blog.cleancoder.com/uncle-bob/2016/06/10/MutationTesting.html)
+87. [Mutation Testing](https://blog.cleancoder.com/uncle-bob/2016/06/10/MutationTesting.html)
 > **"Testing shows the presence, not the absence of bugs." Edsger W. Dijkstra said it long, long ago. Experiments can 
 > only disprove, never prove, a theory.**
 
@@ -693,12 +684,12 @@ activities should be constrained to.
 > **Mutation testing.** With a mutation testing tool like [pitest](http://pitest.org) we successfully augment a test-suite
 > created with lax TDD discipline into one that I can implicitly trust. The implication of that is significant.
 
-89. [The Churn](https://blog.cleancoder.com/uncle-bob/2016/07/27/TheChurn.html)
+88. [The Churn](https://blog.cleancoder.com/uncle-bob/2016/07/27/TheChurn.html)
 > **All we are really doing is reinventing the wheel, over, and over again. And we’re wasting massive amounts of time and effort doing it.**
 > New languages aren’t better; they are just shiny. We need to choose a language, or two, or three. A small set of simple
 > frameworks. Build up our tools. Solidify our processes. And become a goddamn profession.
 
-90. [The Lurn](https://blog.cleancoder.com/uncle-bob/2016/09/01/TheLurn.html)
+89. [The Lurn](https://blog.cleancoder.com/uncle-bob/2016/09/01/TheLurn.html)
 > **Learn at least one new language every year so that you can come to the understanding that we’ve pretty well explored
 > the language domain.** The fact that we’ve explored one small aspect of our profession does not mean that there aren’t
 > other things to explore and learn. Our field is a rich one. We’ve barely scratched the surface. There are deep things 
@@ -715,7 +706,7 @@ activities should be constrained to.
 * _Structured Programming: Dijkstra, Dahl, Hoare_
 * _Object Oriented Software Construction: Meyer_
 
-91. [The Dark Path](https://blog.cleancoder.com/uncle-bob/2017/01/11/TheDarkPath.html)
+90. [The Dark Path](https://blog.cleancoder.com/uncle-bob/2017/01/11/TheDarkPath.html)
 > **The question is: Whose job is it to manage risks: nulls, exceptions, correct inheritance? 
 > Is it the language’s job? Or is it the programmer’s job?**
 
@@ -723,26 +714,26 @@ activities should be constrained to.
 > does not emit unexpected nulls. You test that your system handles nulls at it’s inputs. You test that every exception
 > you can throw is caught somewhere.
 
-92. [Types and Tests](https://blog.cleancoder.com/uncle-bob/2017/01/13/TypesAndTests.html)
+91. [Types and Tests](https://blog.cleancoder.com/uncle-bob/2017/01/13/TypesAndTests.html)
 > **Type models do not specify behavior.** The correctness of your type model has no bearing on the correctness of the 
 > behavior you have specified. At best the type system will prevent some mechanistic failures of representation 
 > (e.g. Double vs. Int); but you still have to specify every single bit of behavior; and you still have to test every 
 > bit of behavior.
 
-93. [Necessary Comments](https://blog.cleancoder.com/uncle-bob/2017/02/23/NecessaryComments.html)
+92. [Necessary Comments](https://blog.cleancoder.com/uncle-bob/2017/02/23/NecessaryComments.html)
 > **Code by the principle that good code does not require many comments.** Indeed, it is suggested that every comment 
 > represents a failure to make the code self explanatory. So consider comments as a last resort.
 
 > But when you do have to write a comment; there can be nothing more helpful than a well written
 > , well thought through, comment.
 
-94. [TDD Harms Architecture](https://blog.cleancoder.com/uncle-bob/2017/03/03/TDD-Harms-Architecture.html)
+93. [TDD Harms Architecture](https://blog.cleancoder.com/uncle-bob/2017/03/03/TDD-Harms-Architecture.html)
 > **Can TDD harm your design and architecture?** Yes! If you don’t employ design principles 
 > to evolve your production code, if you don’t evolve the tests and code in opposite directions,
 > if you don’t treat the tests as part of your system, if you don’t think about decoupling, 
 > separation and isolation, you will damage your design and architecture – TDD or no TDD.
 
-95. [Testing Like the TSA](https://blog.cleancoder.com/uncle-bob/2017/03/06/TestingLikeTheTSA.html)
+94. [Testing Like the TSA](https://blog.cleancoder.com/uncle-bob/2017/03/06/TestingLikeTheTSA.html)
 * Treat 100% coverage as an asymptotic goal. 
 * Every worthwhile test you don’t write costs you time.
 * There’s generally no reason to test your framework.
@@ -750,12 +741,12 @@ activities should be constrained to.
 * Cucumber (Gherkin) is worth it only if you have business people and/or QA who are willing to read your tests. If they will also write your acceptance tests then it absolutely worths it.
 * Some controllers, models, and views are too stupid to bother to test. If they are obviously correct, because they are one line of code, then testing them might be superfluous. But be careful. Sometimes one line of code has 20 lines of semantics.
 
-96. [Symmetry Breaking](https://blog.cleancoder.com/uncle-bob/2017/03/07/SymmetryBreaking.html)
+95. [Symmetry Breaking](https://blog.cleancoder.com/uncle-bob/2017/03/07/SymmetryBreaking.html)
 * You are not allowed to write any production code without first writing a test that fails because the production code does not exist.
 * You are not allowed to write more of a test than is sufficient to fail; including failure of compilation.
 * You are not allowed to write more production code than is sufficient to pass the currently failing test.
 
-97. [First-Class Tests.](https://blog.cleancoder.com/uncle-bob/2017/05/05/TestDefinitions.html)
+96. [First-Class Tests.](https://blog.cleancoder.com/uncle-bob/2017/05/05/TestDefinitions.html)
 * **Unit Test:** A test written by a programmer for the purpose of ensuring that the production code does what the programmer expects it to do.
 * **Acceptance Test:** A test written by the business for the purpose of ensuring that the production code does what the business expects it to do. The authors of these tests are business people, or technical people who represent the business. i.e. Business Analysts, and QA.
 * **Integration Test:** A test written by architects and/or technical leads for the purpose of ensuring that a sub-assembly of system components operates correctly. These are plumbing tests. They are not business rule tests. Their purpose is to confirm that the sub-assembly has been integrated and configured correctly.
@@ -763,7 +754,7 @@ activities should be constrained to.
 * **Micro-test:** A unit test written at a very small scope. The purpose is to test a single function, or small grouping of functions.
 * **Functional Test:** A unit test written at a larger scope, with appropriate mocks for slow components.
 
-98. [The Brain Problem](https://blog.cleancoder.com/uncle-bob/2017/07/28/TheBrainProblem.html)
+97. [The Brain Problem](https://blog.cleancoder.com/uncle-bob/2017/07/28/TheBrainProblem.html)
 > **Virtually every molecule, if not every atom, in your brain is an active component in the information processing 
 > going on between your ears.**
 
@@ -771,39 +762,39 @@ activities should be constrained to.
 > pitifully weak serial processors, could process the information of a single brain is absurd. No, we will not be 
 > achieving artificial sentience any time soon.
 
-99. [Thought Police](https://blog.cleancoder.com/uncle-bob/2017/08/09/ThoughtPolice.html)
+98. [Thought Police](https://blog.cleancoder.com/uncle-bob/2017/08/09/ThoughtPolice.html)
 > **If the people in power fire those who express bad ideas then no one other than the people in power will 
 > ever express an idea.** You never punish bad ideas. Instead, you counter bad ideas with better ideas.
 
-100. [Just Following Orders](https://blog.cleancoder.com/uncle-bob/2017/08/28/JustFollowingOders.html)
+99. [Just Following Orders](https://blog.cleancoder.com/uncle-bob/2017/08/28/JustFollowingOders.html)
 > **Engineers take note: Your employer can’t cover for you.** Doing your job does not mean that you just follow orders. 
 > The courts are going to hold you to a high ethical standard, even if your employer does not.
 
-101. [The Unscrupulous Meme](https://blog.cleancoder.com/uncle-bob/2017/09/29/TheUnscrupulousMeme.html)
+100. [The Unscrupulous Meme](https://blog.cleancoder.com/uncle-bob/2017/09/29/TheUnscrupulousMeme.html)
 > **The ends don’t justify the means.** The honorable way to deal with a bad idea is not to suppress that idea, 
 > but to present a better idea. Unilateral and asymmetric reaction to an offense leads to degradation of the society.
 
-102. [Test Contra-variance](https://blog.cleancoder.com/uncle-bob/2017/10/03/TestContravariance.html)
+101. [Test Contra-variance](https://blog.cleancoder.com/uncle-bob/2017/10/03/TestContravariance.html)
 > **The structure of your tests should not be a mirror of the structure of your code.** The fact that you have a class 
 > named X should not automatically imply that you have a test class named XTest. The act of generalizing the code is 
 > the act of decoupling. As the tests get more specific, the production code gets more generic.
 
-103. [Tools are not the Answer](https://blog.cleancoder.com/uncle-bob/2017/10/04/CodeIsNotTheAnswer.html)
+102. [Tools are not the Answer](https://blog.cleancoder.com/uncle-bob/2017/10/04/CodeIsNotTheAnswer.html)
 > **Programmers are generally undisciplined. Programmers are responsible for faults.** Tools and platforms are not the 
 > answer. Better languages are not the answer. Better frameworks are not the answer. Only programmers raise the level 
 > of software discipline and professionalism. And never make excuses for sloppy work.
 
-104. [Women In Demand](https://blog.cleancoder.com/uncle-bob/2017/10/04/WomenInDemand.html)
+103. [Women In Demand](https://blog.cleancoder.com/uncle-bob/2017/10/04/WomenInDemand.html)
 > **Highly unlikely that quota programs help anyone, both employers and employees.**
 
-105. [Living on the Plateau](https://blog.cleancoder.com/uncle-bob/2017/11/18/OnThePlateau.html)
+104. [Living on the Plateau](https://blog.cleancoder.com/uncle-bob/2017/11/18/OnThePlateau.html)
 > **If we aren’t going to see 1024 core processors in the near future, what need have we of functional programming 
 > languages?** The crisis that drove the current infatuation with functional languages – 
 > seems not to be occurring. And that may well mean that functional languages never achieve the ascendency that we 
 > had anticipated for them. It may just be that Java/C#, and Ruby/Python, and Swift/Dart/Go are, and will be, 
 > sufficient.
 
-106. [Bobby Tables](https://blog.cleancoder.com/uncle-bob/2017/12/03/BobbyTables.html)
+105. [Bobby Tables](https://blog.cleancoder.com/uncle-bob/2017/12/03/BobbyTables.html)
 > **SQL is the ultimate security breech. If there is no SQL engine, then there can be no SQLi attacks.** SQL is a 
 > portable, universal, textual language that can be transmitted through the user interface of a system and, if passed 
 > to the SQL engine, can provide absolute access and control to all the data in the system.
@@ -811,28 +802,28 @@ activities should be constrained to.
 > **What would replace SQL?** An API of course! And NOT an API that uses a textual language. Instead, an API that uses 
 > an appropriate set of data structures and function calls to access the necessary data.
 
-107. [Excuses](https://blog.cleancoder.com/uncle-bob/2017/12/18/Excuses.html)
+106. [Excuses](https://blog.cleancoder.com/uncle-bob/2017/12/18/Excuses.html)
 > **TDD is a good discipline for ensuring that the complex documents, full of arcane symbols, are crafted in such a way so as to avoid significant negative consequences.**
 
-108. [Operating Behind the Power Curve](https://blog.cleancoder.com/uncle-bob/2018/01/15/behindThePowerCurve.html)
+107. [Operating Behind the Power Curve](https://blog.cleancoder.com/uncle-bob/2018/01/15/behindThePowerCurve.html)
 > **Startup culture in the U.S. start out believing that power and speed are related without paying any attention to drag.**
 > So they haul back on the yoke, put their noses into the sky, ram the throttle forward, and then burn fuel madly while 
 > going nowhere in a hurry. They don’t understand that when you make a mess, you induce drag, and you cancel out your 
 > power.
 
-109. [The Citizenship Argument](https://blog.cleancoder.com/uncle-bob/2018/01/18/TheCitizenshipArgument.html)
+108. [The Citizenship Argument](https://blog.cleancoder.com/uncle-bob/2018/01/18/TheCitizenshipArgument.html)
 > **TDD is, in fact, about being a good moral citizen of the software community. TDD is about professional ethics.**
 
-110. [We Programmers](https://blog.cleancoder.com/uncle-bob/2018/03/29/WeProgrammers.html)
+109. [We Programmers](https://blog.cleancoder.com/uncle-bob/2018/03/29/WeProgrammers.html)
 > **Every line of code represents an ethical and moral decision.** It is well past the time that we programmers can 
 > safely isolate ourselves from the rest of the world. We programmers must no longer hide in our little techie bubbles. 
 > The code we programmers write matters. It matters to the hopes and dreams of our society and of our civilization.
 
-111. [In The Large](https://blog.cleancoder.com/uncle-bob/2018/04/02/InTheLarge.html)
+110. [In The Large](https://blog.cleancoder.com/uncle-bob/2018/04/02/InTheLarge.html)
 > **We, humans, are really quite good at doing big things. And Agile is not about big things. Agile is a revolution 
 > in how relatively small teams can develop relatively small software projects.**
 
-112. [FP vs. OO](https://blog.cleancoder.com/uncle-bob/2018/04/13/FPvsOO.html)
+111. [FP vs. OO](https://blog.cleancoder.com/uncle-bob/2018/04/13/FPvsOO.html)
 > **The reductive definition of OO is:**
 ~~~
 The technique of using dynamic polymorphism to call functions without the source code of the caller depending 
@@ -851,7 +842,7 @@ Referential Transparency – no reassignment of values.
 f(o) is equal to o.f()
 ~~~
 
-113. [Pickled State](https://blog.cleancoder.com/uncle-bob/2018/06/06/PickledState.html)
+112. [Pickled State](https://blog.cleancoder.com/uncle-bob/2018/06/06/PickledState.html)
 > **The next time you are using BDD and/or Gherkin to specify a system, remember that what you are really doing is 
 > specifying a finite state machine.** If you are careful to identify the states and events, you will make it a lot 
 > easier to find the missing {state,event} pairs and create a more complete specification.
@@ -867,7 +858,7 @@ WHEN we get the EVENT,
 THEN we go to the NEXT_STATE. 
 ~~~
 
-114. [737 Max 8](https://blog.cleancoder.com/uncle-bob/2019/05/18/737-Max-8.html)
+113. [737 Max 8](https://blog.cleancoder.com/uncle-bob/2019/05/18/737-Max-8.html)
 > **We, programmers, are killing people. Our errors cause loss, injury, and death. It’s our fingers on the keyboards.** 
 > It’s our code running in the machines. No matter who else is involved in these errors, we are the ones 
 > who write that code:
@@ -876,13 +867,13 @@ THEN we go to the NEXT_STATE.
 * We need to employ the practices and disciplines that keep our users, our customers, and our employers safe.
 * We need to have the courage to say “No” when we assess that the risk of deploying our code is too high.
 
-115. [Classes vs. Data Structures](https://blog.cleancoder.com/uncle-bob/2019/06/16/ObjectsAndDataStructures.html)
+114. [Classes vs. Data Structures](https://blog.cleancoder.com/uncle-bob/2019/06/16/ObjectsAndDataStructures.html)
 > **Classes and Data Structures are opposites in at least three different ways:**
 * Classes make functions visible while keeping data implied. Data structures make data visible while keeping functions implied.
 * Classes make it easy to add types but hard to add functions. Data structures make it easy to add functions but hard to add types.
 * Data Structures expose callers to recompilation and redeployment. Classes isolate callers from recompilation and redeployment.
 
-116. [Why won't it...](https://blog.cleancoder.com/uncle-bob/2019/07/22/WhyWontIt.html)
+115. [Why won't it...](https://blog.cleancoder.com/uncle-bob/2019/07/22/WhyWontIt.html)
 > **Software is supposed to make life easier. Software is supposed to ease and enable the job of users. All too often, 
 > however, software is constraining and restrictive.** If you don’t do what the software expects,
 > the software fights you and stops you. And you mutter under your breath: “Why won’t it…”
