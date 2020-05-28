@@ -22,3 +22,23 @@
   
 > Aggregates are the basic element of transfer of data storage - you request to load or save whole aggregates. 
 > Transactions should not cross aggregate boundaries.
+
+4. [Agile Brazil Interview](https://www.infoq.com/interviews/fowler-caroli-continuous-deployment/)
+> **What to do when acceptance tests take a lot of time?** We have two layers of test. First layer is a fast moving set 
+> of unit tests that gives you a quick feedback. Then, you have the acceptance tests that do run through the browser 
+> that do have things like databases connected, running on a separate stage of the pipeline. Also you can run your 
+> acceptance tests in parallel. Of course, their correct execution depends on the power of machines and there is no 
+> dependency of one test on the other.
+
+> **What would be a short time for build to have the feedback?** For the commit stage, you want 10 minutes or less.
+
+> **Polyglot programming. What do you think about it?** The idea of using different languages for different strengths,
+> that’s what polyglot programming is about. There is a separate point. I think the pragmatic programmers advice try 
+> to learn a new different language (if you already know Java, learning C# doesn’t count) every year and not necessarily
+> a language that you expect to use day-to-day in your production programming work, but one that will stretch your mind 
+> in a different direction, open new possibilities.
+
+> **How early and how continuously should we deliver?** As early as possible, but always the top quality. You want to go into 
+> production, as rapidly as you possibly can and then you want to be cycling updates as quickly as you can, as well. 
+> There is still attenuation here from how rapidly the customer wants to get something, wants the minimal thing that
+> they can go with first.
