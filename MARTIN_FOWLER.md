@@ -42,3 +42,9 @@
 > production, as rapidly as you possibly can and then you want to be cycling updates as quickly as you can, as well. 
 > There is still attenuation here from how rapidly the customer wants to get something, wants the minimal thing that
 > they can go with first.
+
+5. [AgileImposition](https://martinfowler.com/bliki/AgileImposition.html)
+> **As a methodology or design approach becomes fashionable, then we see a lot of people using it, or teaching it, who are 
+> focusing on the fashion rather than the real details.** This can lead to reports of things done in agile's name which
+> are a polar opposite to the principles of movement's founders. For example, imposing a process on a team is completely
+> opposed to the principles of agile software, and has been since its inception.
