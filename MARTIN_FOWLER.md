@@ -48,3 +48,13 @@
 > focusing on the fashion rather than the real details.** This can lead to reports of things done in agile's name which
 > are a polar opposite to the principles of movement's founders. For example, imposing a process on a team is completely
 > opposed to the principles of agile software, and has been since its inception.
+
+6. [An Appropriate Use of Metrics](https://martinfowler.com/articles/useOfMetrics.html)
+> **Metrics cannot be used as a substitute for thinking. So organizations must be vigilant against the undesirable 
+> behaviors that emerge due to the inappropriate use of metrics.**
+
+> **Guidelines for a more appropriate use of metrics:**
+* **Explicitly link metrics to goals.** Management is responsible for ensuring the end goal is always kept in sight, working with the people with the most knowledge of the system to come up with measures that make the most sense to monitor for progress.
+* **Favor tracking trends over absolute numbers.** Focusing on trends is important because it provides feedback based on real data on any change implemented and creates more options for organizations to react.
+* **Use shorter tracking periods.** Organizations benefit from using shorter tracking periods as it creates more opportunities for re-planning that allows maximum value.
+* **Change metrics when they stop driving change.** Organizations need to drop metrics that are no longer relevant.
