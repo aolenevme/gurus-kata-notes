@@ -58,3 +58,8 @@
 * **Favor tracking trends over absolute numbers.** Focusing on trends is important because it provides feedback based on real data on any change implemented and creates more options for organizations to react.
 * **Use shorter tracking periods.** Organizations benefit from using shorter tracking periods as it creates more opportunities for re-planning that allows maximum value.
 * **Change metrics when they stop driving change.** Organizations need to drop metrics that are no longer relevant.
+
+7. [AbundantMutation](https://martinfowler.com/bliki/AbundantMutation.html)
+> **Evolutionary Design expects the team to modify the design as the project proceeds; both to cope with requirements 
+> changes and to take advantage of learning.** But evolutionary design requires attention, skill, and leadership. It's just 
+> a different sort of leadership than many commonly think.
