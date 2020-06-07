@@ -63,3 +63,9 @@
 > **Evolutionary Design expects the team to modify the design as the project proceeds; both to cope with requirements 
 > changes and to take advantage of learning.** But evolutionary design requires attention, skill, and leadership. It's just 
 > a different sort of leadership than many commonly think.
+
+
+8. [ActivityOriented](https://martinfowler.com/bliki/ActivityOriented.html) and [OutcomeOriented](https://martinfowler.com/bliki/OutcomeOriented.html)
+> **A mandate to deliver a business outcome is very different from a mandate to deliver a certain amount of scope. Scope delivery is easy, relatively speaking.** Outcome realization requires real collaboration between those who understand the problem and those who can fashion various levels of solution for it. Initial attempts at solution lead to a better understanding of the problem which leads to further attempts at better solutions. This doesn’t work where the product management organization is separate from the development (scope-delivery) organization.
+
+> Outcome-oriented teams are necessarily cross-functional (multidisciplinary) whereas ActivityOriented teams are typically mono-functional (single specialty). In the most traditional scenario, an outcome might simply be defined in terms of a project. The project is funded on the basis of a business case and therefore the desired outcome is to realize what is promised in the business case. However, depending on the size of the project it may be organized as one or more teams. When these teams are set up along activity boundaries it becomes an activity-oriented project (or program) organization. On the other hand, we achieve an outcome-oriented organization by dividing the overall outcome into sub-outcomes and assigning sub-outcomes to cross-functional teams that are self-sufficient in terms of people required to deliver the sub-outcome.
