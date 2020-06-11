@@ -72,3 +72,8 @@
 
 9. [AgileVersusLean](https://martinfowler.com/bliki/AgileVersusLean.html)
 > **Lean and agile are deeply intertwined in the software world. You can't really talk about them being alternatives, if you are doing agile you are doing lean and vice-versa.** Agile was always meant as a very broad concept, a core set of values and principles that was shared by processes that look superficially different. You don't do agile or lean you do agile and lean. The only question is how explicitly you use ideas that draw directly from lean manufacturing. Think of lean as a strand of thinking within the agile community, like a pattern.
+
+10. [AgileHandover](https://martinfowler.com/bliki/AgileHandover.html)
+> **Processes that produce mandatory documentation often produce stuff that isn't very helpful, and under the pressure of deadlines tends not to be kept up to date.** In many ways the agile approach is a preference for a smaller amount of higher quality documentation.
+
+> Agile projects prefer face-to-face communication, so a common approach is to bring in members of a support/maintenance team to work with the development team for a while before they depart. By spending some time with both teams present, the development team could teach the system to the maintenance team as they are working the system.
