@@ -77,3 +77,6 @@
 > **Processes that produce mandatory documentation often produce stuff that isn't very helpful, and under the pressure of deadlines tends not to be kept up to date.** In many ways the agile approach is a preference for a smaller amount of higher quality documentation.
 
 > Agile projects prefer face-to-face communication, so a common approach is to bring in members of a support/maintenance team to work with the development team for a while before they depart. By spending some time with both teams present, the development team could teach the system to the maintenance team as they are working the system.
+
+11. [An example of preparatory refactoring](https://martinfowler.com/articles/preparatory-refactoring-example.html)
+> ["For each desired change, make the change easy (warning: this may be hard), then make the easy change" - Kent Beck](https://twitter.com/KentBeck/status/250733358307500032?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E250733358307500032&ref_url=https%3A%2F%2Fmartinfowler.com%2Farticles%2Fpreparatory-refactoring-example.html)
