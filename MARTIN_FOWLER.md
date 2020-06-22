@@ -80,3 +80,6 @@
 
 11. [An example of preparatory refactoring](https://martinfowler.com/articles/preparatory-refactoring-example.html)
 > ["For each desired change, make the change easy (warning: this may be hard), then make the easy change" - Kent Beck](https://twitter.com/KentBeck/status/250733358307500032?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E250733358307500032&ref_url=https%3A%2F%2Fmartinfowler.com%2Farticles%2Fpreparatory-refactoring-example.html)
+
+12. [ApplicationBoundary](https://martinfowler.com/bliki/ApplicationBoundary.html)
+> **Unfortunately, the boundaries of a piece of software are drawn primarily by human inter-relationships and politics rather than technical and functional considerations.** It's our nature to group things together and organize groups of people around these groups. If we are interested in thinking further about applications and how they interrelate, we should take a look at the strategic design section of [Domain-Driven Design](https://www.amazon.com/gp/product/0321125215?ie=UTF8&tag=martinfowlerc-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=0321125215).
