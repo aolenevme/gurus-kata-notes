@@ -83,3 +83,6 @@
 
 12. [ApplicationBoundary](https://martinfowler.com/bliki/ApplicationBoundary.html)
 > **Unfortunately, the boundaries of a piece of software are drawn primarily by human inter-relationships and politics rather than technical and functional considerations.** It's our nature to group things together and organize groups of people around these groups. If we are interested in thinking further about applications and how they interrelate, we should take a look at the strategic design section of [Domain-Driven Design](https://www.amazon.com/gp/product/0321125215?ie=UTF8&tag=martinfowlerc-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=0321125215).
+
+13. [AssertionFreeTesting](https://martinfowler.com/bliki/AssertionFreeTesting.html)
+> **You have to be careful on interpreting code coverage data.**
