@@ -86,3 +86,6 @@
 
 13. [AssertionFreeTesting](https://martinfowler.com/bliki/AssertionFreeTesting.html)
 > **You have to be careful on interpreting code coverage data.**
+
+14. [AvoidingRepetition](https://martinfowler.com/ieeeSoftware/repetition.pdf)
+> **Don\`t repeat yourself. Say anything in your program only once. Design patterns help with it.** But as many people know, one of the problems with people who have just read a pattern is that they insist on using it, which often leads to more complicated designs. When you insist on using a pattern, ask, “What repetition is this removing?” Removing repetition makes it more likely that you’re making good use of the pattern. If not, perhaps you shouldn’t use it. 
