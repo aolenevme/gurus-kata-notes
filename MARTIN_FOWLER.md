@@ -91,7 +91,7 @@
 > **Don\`t repeat yourself. Say anything in your program only once. Design patterns help with it.** But as many people know, one of the problems with people who have just read a pattern is that they insist on using it, which often leads to more complicated designs. When you insist on using a pattern, ask, “What repetition is this removing?” Removing repetition makes it more likely that you’re making good use of the pattern. If not, perhaps you shouldn’t use it. 
 
 15. [BeckDesignRules](https://martinfowler.com/bliki/BeckDesignRules.html)
-* **Passes the tests**. It is the first and the most important.
+* **Passes the tests**. It is the first and the most important one.
 * **Reveals intention** (every intention is understandable) and **No Duplication** (DRY, or SPOT, or everything should be said "Once and only Once."). These are the second priority.
 * **Fewest elements** (anything that doesn't serve the three prior rules should be removed). The last one in the priority order.
 
