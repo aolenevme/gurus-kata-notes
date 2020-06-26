@@ -96,3 +96,6 @@
 * **Fewest elements** (anything that doesn't serve the three prior rules should be removed). The last one in the priority order.
 
 > P.S. It is the good rules to use during the code review.
+
+16. [BeyondSoftwareArchitecture](https://martinfowler.com/books/hohmann.html)
+> **Consider the book [Beyond Software Architecture](https://www.amazon.com/Beyond-Software-Architecture-Sustaining-Solutions/dp/0201775948)** Such things as the marketing view of a system, licensing terms, branding, deployment, billing. All of these issues have important technical and business implications. Senior technical people need to think about this stuff, or otherwise a technically capable system could fail to be good business decision.
