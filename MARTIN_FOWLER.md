@@ -99,3 +99,6 @@
 
 16. [BeyondSoftwareArchitecture](https://martinfowler.com/books/hohmann.html)
 > **Consider the book [Beyond Software Architecture](https://www.amazon.com/Beyond-Software-Architecture-Sustaining-Solutions/dp/0201775948).** Such things as the marketing view of a system, licensing terms, branding, deployment, billing. All of these issues have important technical and business implications. Senior technical people need to think about this stuff, or otherwise a technically capable system could fail to be good business decision.
+
+17. [BlueGreenDeployment](https://martinfowler.com/bliki/BlueGreenDeployment.html)
+> **The idea is about two environments, Blue and Green, that need to be different but as identical as possible.** You test new release on the Green environment. If everything is OK, you switch the router to the Green environment. In case of emeregency, you can use the Blue one as a rollback. When new release is coming up, you test it on the Blue environment. Then you switch the router again and use the Green environment as a preproduction. And then repeat. And repeat. Consider [this book for more insights](https://martinfowler.com/books/continuousDelivery.html).
