@@ -102,3 +102,6 @@
 
 17. [BlueGreenDeployment](https://martinfowler.com/bliki/BlueGreenDeployment.html)
 > **The idea is about two environments, Blue and Green, that need to be different but as identical as possible.** You test new release on the Green environment. If everything is OK, you switch the router to the Green environment. In case of emeregency, you can use the Blue one as a rollback. When new release is coming up, you test it on the Blue environment. Then you switch the router again and use the Green environment as a preproduction. And then repeat. And repeat. Consider [this book for more insights](https://martinfowler.com/books/continuousDelivery.html).
+
+18. [BroadStackTest](https://martinfowler.com/bliki/BroadStackTest.html)
+> **Broad-stack tests have the advantage of exercising the application with all its parts connected together and thus can find bugs in the interaction between components in the way that unit tests cannot.** However broad-stack tests also tend to be harder to maintain and slower to run than unit tests. As a result the test pyramid suggests using fewer broad-stack tests. So before fixing a bug exposed by a broad-stack test, you should replicate the bug with a unit test. Then the unit test ensures the bug stays dead.
