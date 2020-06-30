@@ -107,4 +107,4 @@
 > **Broad-stack tests have the advantage of exercising the application with all its parts connected together and thus can find bugs in the interaction between components in the way that unit tests cannot.** However broad-stack tests also tend to be harder to maintain and slower to run than unit tests. As a result the test pyramid suggests using fewer broad-stack tests. So before fixing a bug exposed by a broad-stack test, you should replicate the bug with a unit test. Then the unit test ensures the bug stays dead.
 
 19. [Buildix](https://martinfowler.com/bliki/Buildix.html)
-> **Getting a good CI/CD environment with all of things up and integrated together is a tougher job than you might think.** Inevitably you may find that you will be messing around for a week for a new project.
+> **Getting a good CI/CD environment with all of things up and integrated together is a tougher job than you might think.** Inevitably you may find that you will be messing around for a week for any new project.
