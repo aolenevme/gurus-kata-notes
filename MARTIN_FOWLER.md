@@ -108,3 +108,6 @@
 
 19. [Buildix](https://martinfowler.com/bliki/Buildix.html)
 > **Getting a good CI/CD environment with all of things up and integrated together is a tougher job than you might think.** Inevitably you may find that you will be messing around for a week for any new project.
+
+20. [Business Readable DSL](https://martinfowler.com/bliki/BusinessReadableDSL.html)
+> **The idea is in making DSLs business-readable rather than business-writeable.** If business people are able to look at the DSL code and understand it, then we can build a deep and rich communication channel between software development and the underlying domain. The talent and the time involved to understand and build a program, is why programming has resisted being disintermediated for so long. It's also why many "non-programming" environments end up breeding their own class of programmers-in-fact.
