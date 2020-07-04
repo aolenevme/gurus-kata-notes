@@ -111,3 +111,6 @@
 
 20. [Business Readable DSL](https://martinfowler.com/bliki/BusinessReadableDSL.html)
 > **The idea is in making DSLs business-readable rather than business-writeable.** If business people are able to look at the DSL code and understand it, then we can build a deep and rich communication channel between software development and the underlying domain. The talent and the time involved to understand and build a program, is why programming has resisted being disintermediated for so long. It's also why many "non-programming" environments end up breeding their own class of programmers-in-fact.
+
+21. [CanaryRelease](https://martinfowler.com/bliki/CanaryRelease.html)
+> **Canary release is an incremental approach in rollout when you test new release on 1%, then on 10%, and then on 100% of users. Also it fits well with the A/B testing.**
